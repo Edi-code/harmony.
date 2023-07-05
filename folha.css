@@ -1,0 +1,6620 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+html {
+    line-height: 1.15; /* 1 */
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    -ms-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 100vw;
+    margin: 0;
+    background: #ffffff;
+}
+
+.pag1 {
+    max-width: 100%;
+    height: 625px;
+    overflow: hidden;
+    background: RGB(75, 82, 93);
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    display: -webkit-grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:1fr;
+    position: relative;
+}
+
+.pag11 {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    display: -webkit-grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px .4fr max-content 1fr;
+    position: absolute;
+    z-index: 2;
+}
+
+.pag1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.header1 {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    display: -webkit-grid;
+    grid-template-columns:2.5% 1fr 1fr 2.5%;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.home1 {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-family: 'Manrope', sans-serif;
+    text-decoration: none;
+    color:RGB(234, 234, 234);
+    font-size: .95rem;
+    font-weight: bold;
+    align-self: center;
+    letter-spacing: .08rem;
+    grid-column-start: 2;
+    grid-column-end: -3;
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.contac1 {
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    text-decoration: none;
+    margin: 0;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    display: -webkit-grid;
+    justify-self: end;
+    align-self: center;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 300;
+    font-size: .9rem;
+}
+
+.btn-txt4 {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    display: -webkit-grid;
+    align-items: center;
+    justify-self: center;
+    grid-template-columns: 1fr;
+    letter-spacing: .08rem;
+    color:RGB(225, 228, 234);
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+}
+
+:is(.btn-txt4, .home1):hover {
+    color: RGB(175, 192, 233);
+    -o-transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.content {
+    width: 100%;
+    max-width: 100%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: repeat(3, -webkit-max-content);
+    grid-template-rows: repeat(3, -moz-max-content);
+    grid-template-rows: repeat(3, max-content);
+    grid-template-columns: 1fr;
+    align-self: self-start;
+    align-items: center;
+    justify-content: center;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.toptite {
+    margin: 0;
+    margin-left: 10%;
+    font-family: 'Marope', sans-serif;
+    font-size: .8rem;
+    color: RGB(225, 228, 234);
+    margin-bottom: 1%;
+    font-weight: 600;
+    letter-spacing: .092rem;
+}
+
+.titlehome {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    width: 30%;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    color: RGB(234, 234, 234);
+    font-family: 'Marope', sans-serif;
+    text-align: start;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    line-height: 2.3rem;
+    margin: 0;
+    margin-left: 10%;
+}
+
+.myprojet {
+    height: 40px;
+    width: 135px;
+    margin: 0;
+    margin-left: 10%;
+    margin-top: 1.7%;
+}
+
+.type3 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid RGB(225, 228, 234);
+    overflow: hidden;
+    border-radius: 0px;
+    color: RGB(225, 228, 234,.9);
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.btn-txt3 {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    align-items: center;
+    justify-self: center;
+    grid-template-columns: 1fr;
+    z-index: 1;
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: .104rem;
+    font-family: 'Marope', sans-serif;
+}
+
+.type3:hover {
+    box-shadow: 1px 1px 2px #252525;
+    color: RGB(26, 26, 26);
+    background: RGB(225, 228, 234,.9);
+}
+
+:is(.home1, .contac1, .myprojet, .contac1, .type3):focus-visible {
+    outline: 2px solid rgb(55, 61, 76); 
+}
+
+:is(.home1, .btn-txt4):active {
+    color: rgb(26,26,26);
+    border: none;
+    outline: none;
+    -o-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.type3:active {
+    color: RGB(225,228,234);
+    background: RGB(26,26,26);
+    -o-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+
+
+
+/* pag two */
+
+.pag2 {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    max-width: 100%;
+    height: 700px;
+    background: rgb(173, 173, 173, .3);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 6%;
+    overflow: hidden;
+}
+
+.pagcout{
+    height: 100%;
+    width: 80%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 70px 1fr 70px;
+    align-self: center;
+    justify-self: center;
+    gap: 6%;
+    row-gap: 0px;
+}
+
+.sub11{
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    align-self: self-start;
+    position: relative;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-row: 2/3;
+}
+
+.sub111{
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    grid-template-rows: repeat(4,auto);
+    grid-template-columns: 1fr;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    align-self: center;
+    position: relative;
+    width: 100%;
+}
+
+.linha1{
+    width: 15%;
+    border-top: 2px solid rgb(26, 26, 26,.8);
+    position: relative;
+    top: -12px;
+    left: 145px;
+}
+
+.quem{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-family: 'Marope', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 550;
+    letter-spacing: .1rem;
+    color: rgb(26, 26, 26);
+    margin: 0;
+}
+
+.cabeja1{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    width: 100%;
+    margin: 0;
+    margin-top: 3%;
+    max-width: 100%;
+    height: auto;
+}
+
+.text1{
+    display: inline;
+    font-family: 'Manrope', sans-serif;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    line-height: 1.3rem;
+    font-weight: 600;
+    text-align: start;
+    position: relative;
+    color: RGB(21, 24, 30);
+    text-align: start;
+}
+
+.foco{
+    width: 100%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-family: 'Marope', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 550;
+    letter-spacing: .1rem;
+    color: rgb(26, 26, 26);
+    margin: 0;
+    margin-top: 10%;
+}
+
+.somos{
+    display: inline;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    font-size: .95rem;
+    font-weight: 700;
+    color: #000; 
+}
+
+.cabeja2{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    width: 100%;
+    margin: 0;
+    margin-top: 3%;
+    max-width: 100%;
+    height: auto;  
+}
+
+
+.text2 {
+    width: 100%;
+    display: inline;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: .8rem;
+    letter-spacing: .1rem;
+    line-height: 1.3rem;
+    font-weight: 600;
+    text-align: start;
+    color: RGB(21, 24, 30);
+    position: relative;
+    text-align: start;
+}
+
+.objtiv {
+    display: inline;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    width: max-content;
+    height: -moz-max-content;
+    height: -webkit-max-content;
+    height: max-content;
+    font-size: .95rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.sub22 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    align-items: center;
+    grid-template-rows: 1fr;
+    overflow: hidden;
+    grid-row: 2/3;
+}
+
+.sub22 img {
+    width: max-content;
+    width: -moz-max-content;
+    width: -webkit-max-content;
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+/*Pagina 3*/
+
+.empilhamento {
+    max-width: 100%;
+    height: 695px;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background: rgb(55, 61, 76);
+    position: relative;
+}
+
+.empilhamento11 {
+    width: 80%;
+    height: 77.1%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.empilhamento11 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.empilhamento111 {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: 49.5% 50.5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.empicol2 {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: repeat(2, 1fr);
+    border-left: 8px solid rgb(55, 61, 76);
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.empirow1{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    width: 100%;
+    background: rgb(55, 61, 76);
+}
+
+.contnuber{
+    width: 90%;
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-self: center;
+    align-self: center;
+    margin: 0;
+    grid-template-rows: max-content max-content auto;
+    grid-template-rows: -webkit-max-content -webkit-max-content auto;
+    grid-template-rows: -moz-max-content -moz-max-content auto;
+}
+
+.numeros{
+    width: 100%;
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    max-width: 100%;
+    margin: 0;
+    display: inline;
+    font-family: 'Marope', sans-serif;
+    text-align: start;
+    font-size: 1.6rem;
+    color: RGB(225, 225, 225);
+    letter-spacing: .15rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+}
+
+
+.textnuber{
+    width: 100%;
+    height: 100%;
+    justify-self:  end;
+    font-family: 'Manrope', sans-serif;
+    font-size: .8rem;
+    text-align: justify;
+    margin: 0;
+    color: RGB(218, 218, 218);
+    font-weight: 400;
+    letter-spacing: .05rem;
+    line-height: 1.1rem;
+    margin-top: 25px;
+}
+
+.contact2{
+    height: 40px;
+    width: 135px;
+    margin-top: 40px;
+}
+
+.type1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid RGB(225, 225, 225,.9);
+    overflow: hidden;
+    border-radius: 0px;
+    color: RGB(225, 225, 225,.9);
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.btn-txt1 {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    align-items: center;
+    justify-self: center;
+    grid-template-columns: repeat(2,auto);
+    z-index: 1;
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    font-family: 'Lexend' sans-serif;
+}
+
+.type1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: RGB(224, 227, 235);
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+}
+
+.type1:hover {
+    box-shadow: 1px 1px 2px #252525;
+    color: RGB(26, 26, 26);
+    border: none;
+    background: RGB(224, 227, 235,.9);
+}
+
+.type1:hover::after {
+    visibility: visible;
+    -webkit-transform:scale(100) translateX(2px);
+    -moz-transform:scale(100) translateX(2px);
+    -ms-transform:scale(100) translateX(2px);
+    -o-transform:scale(100) translateX(2px);
+    transform: scale(100) translateX(2px);
+}
+
+.empirow2{
+    background: RGB(21, 24, 30,.55);
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+.numbers{
+    width: 100%;
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    align-self: center;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.numero1, .numero2, .numero3, .numero4{
+    width: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: repeat(2,auto);
+}
+
+.tag{
+    font-family: 'Marope', sans-serif;
+    font-weight: 600;
+    font-size: 2.2rem;
+    color: RGB(205, 205, 205);
+    letter-spacing: .1rem;
+    margin: 0;
+}
+
+.tag2{
+    font-family: 'Lexend', sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+    letter-spacing: .05rem;
+    color: RGB(200, 200, 200);
+    margin: 0;
+    line-height: 1rem;
+    text-align: center;
+    width: 64%;
+}
+
+:is(.numerostwo,.home1,.text1,.text2,.quem,.somos,.foco,.objtiv, .folio, .h4projet, .fooltite, footer li, footer a, .proporci, .levamo, .preco, .partir1, .partir2, sup,)::selection, :is(.numerostwo,.home1,.text1,.text2,.quem,.somos,.foco,.objtiv, .folio, .h4projet, .fooltite, footer li, footer a, .proporci, .levamo, .preco, .partir1, .partir2, sup,)::-moz-selection{
+    color: RGB(230,230,230);
+    background: rgb(55, 61, 76);
+}
+
+:is(.h5vamos, .descrit, .numeros, .textnuber, .titlehome, .toptite)::-moz-selection, :is(.h5vamos, .descrit, .numeros, .textnuber, .titlehome, .toptite)::selection{
+    color: rgb(55, 61, 76);
+    background: rgb(230,230,230);
+}
+
+
+:is(.contact2, .type1):focus-visible {
+    outline: 2px solid rgb(26,26,26); 
+}
+
+.type1:active {
+    color: RGB(225,228,234);
+    background: RGB(26,26,26);
+    -o-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+
+
+
+/*Pagina 4*/
+.pagtest{
+    max-width: 100%;
+    height: 550px;
+    background: RGB(26, 26, 26);
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: 1fr;
+    position: relative;
+}
+
+.pag80{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-self: end;
+    align-self: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.test44{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr;
+    align-self: center;
+    justify-self: center;
+    justify-items: center;
+    align-items: start;
+}
+
+:is(.reto2,.reto3, .reto4) img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    -webkit-transform:scale(1,1);
+    -moz-transform:scale(1,1);
+    -ms-transform:scale(1,1);
+    -o-transform:scale(1,1);
+    transform: scale(1,1);
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    opacity: .95;
+}
+
+:is(.reto2,.reto3, .reto4) img:hover{
+    -webkit-transform:scale(1.05,1.05);
+    -moz-transform:scale(1.05,1.05);
+    -ms-transform:scale(1.05,1.05);
+    -o-transform:scale(1.05,1.05);
+    transform: scale(1.05,1.05);
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+    cursor:zoom-in;
+    opacity: 1;
+}
+
+:is(.reto2,.reto3, .reto4):hover :is(span,.stextw){
+    opacity: 0;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+}
+
+.reto1,.reto2,.reto3, .reto4{
+    height: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.carromob{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-start:2;
+    grid-column-end: 5;
+    overflow: hidden;
+}
+
+.reto2,.reto3, .reto4{
+    overflow: hidden;
+}
+
+
+.reto11{
+    height: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-items: center;
+    grid-template-rows: 70px auto 1fr 70px;
+}
+
+.levamo{
+    width: 70%;
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    font-family: 'Lexend',sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .05rem;
+    line-height: 1.9rem;
+    color: RGB(221, 228, 238);
+    font-weight: 500;
+    margin: 0;
+    grid-row: 2 / 3;
+    display: inline;
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+}
+
+.spai{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 15% 75% 10%;
+    grid-template-rows: 35px auto 1fr ;
+    grid-row: 3 / 4;
+}
+
+.proporci{
+    display: inline;
+    font-family: 'Marope',sans-serif;
+    font-size: .8rem;
+    color: RGB(221, 228, 238,.9);
+    font-weight: 500;
+    letter-spacing: .05rem;
+    line-height: 1.2rem;
+    text-align:start;
+    margin:0;
+    width: 100%;
+    height: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.subreto{
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -ms-flex-direction: row;
+    width: 100%;
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    margin: 0;
+    margin-left: 10%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row: 3/4;
+    align-items: end;
+    align-self: flex-end;
+    position: relative;
+}
+
+.partir1, .partir2, .preco{
+    margin: 0;
+    display: inline;
+    font-family: 'Lexend',sans-serif;
+    color: RGB(225, 228, 234);
+    letter-spacing: .05rem;
+    text-align: start;
+}
+
+.partir1{
+    font-size: .7rem;
+    margin-right: .16rem;
+    position: absolute;
+    top: -20%;
+    left: 0%;
+    font-weight: 300;
+    letter-spacing: .02rem;
+}
+
+.partir2{
+    font-size: .8rem;
+    font-weight: 300;
+}
+
+.preco{
+    font-size: 1.2rem;
+    margin-left: 45px;
+    font-weight: 300;
+}
+
+:is(.reto2, .reto3, .reto4) span{
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    color: RGB(26, 26, 26);
+    font-size: .9rem;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    letter-spacing: .05rem;
+    padding: 0px 0px ;
+    text-align: start;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin: 0;
+    opacity: 100%;
+    -o-transition: all .6s;
+    -moz-transition: all .6s;
+    -webkit-transition: all .6s;
+    transition: all .6s;
+}
+
+
+
+/*Pagina 5*/
+
+.zap{
+    opacity: 90%;
+    position: fixed;
+    top: 83%;
+    left: 92%;
+    z-index: 2;
+    width: 90px;
+    height: 90px;
+}
+
+.zap:hover{
+    opacity: 100%;
+}
+
+.pag5{
+    width: 100%;
+    height: 1390px;
+    background: rgb(173, 173, 173, .3);
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: 70px auto 70px;
+}
+
+.pag55{
+    grid-row: 2/3;
+    width: 80%;
+    height: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    align-self: center;
+    justify-self: center;
+    grid-template-rows: 1fr;
+}
+
+.camada{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns:  1fr;
+    grid-template-rows:  10% repeat(2, 1fr) 10%;
+}
+
+
+.colun1, .colun2{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: 380px 1fr;
+    grid-template-columns: 60% 40%;
+    
+}
+
+.titeproj{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    align-self: flex-end;
+    width: 80%;
+    height: 90%;
+    justify-self: center;
+    align-self: flex-start;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.h4projet{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    font-family: 'Lexend', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    letter-spacing: .1rem;
+    color: RGB(26, 26, 26);
+    margin: 0;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-self: flex-end;
+    position: relative;
+    top: 10px;
+}
+
+.linha3{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+}
+
+
+.horizontal2{
+    border-top: 2px solid RGB(26, 26, 26,.8);
+    width: 20%;
+    margin-left: 1%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    position: relative;
+    top: 22%;
+}
+
+
+.projets1,.projets2, .projets3,.projets4{
+    width: 90%;
+    height: 380px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.projets2{
+    width: 100%;
+}
+
+.subproj{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content; 
+}
+
+.ctabut{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+}
+
+#ctabut4{
+    margin-left: 7.7%;
+}
+
+.linha4{
+    width: 100%;
+    border: 0;
+}
+
+.linha44{
+    width: 100%;
+    border: 0;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-items: end;
+}
+
+.horizontal4{
+    width: 100%;
+    border-top: 1px solid RGB(26, 26, 26,.7);
+}
+
+.horizontal14{
+    width: 90%;
+    border-top: 1px solid RGB(26, 26, 26,.7);
+}
+
+.colun2{
+    grid-template-columns: 40% 60%;
+}
+
+.projets3{
+    width: 100%;
+}
+
+.projets4{
+    width: 90%;
+    justify-self: end;
+}
+
+.projesala,.projecozi,.projetorio,.projemansa{
+    -webkit-transform:scale(1,1);
+    -moz-transform:scale(1,1);
+    -ms-transform:scale(1,1);
+    -o-transform: scale(1,1);
+    transform: scale(1,1);
+    -o-transition: all .8s;
+    -moz-transition: all .8s;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+}
+
+:is(.projesala,.projecozi,.projetorio,.projemansa):hover{
+    -webkit-transform:scale(1.12,1.12);
+    -moz-transform:scale(1.12,1.12);
+    -ms-transform:scale(1.12,1.12);
+    -o-transform: scale(1.12,1.12);
+    transform: scale(1.12,1.12);
+    overflow: hidden;
+    -o-transition: all .8s;
+    -moz-transition: all .8s;
+    -webkit-transition: all .8s;
+    transition: all .8s;
+}
+
+
+
+.butpri {
+  height: 56px;
+  overflow: hidden;
+  border: none;
+  color: RGB(26, 26, 26);
+  background: none;
+  position: relative;
+  padding-bottom: 1.5em;
+}
+
+#butpri1{
+    width: 163px;
+}
+
+#butpri2{
+    width: 208px;
+}
+
+#butpri3{
+    width: 222px;
+}
+
+#butpri4{
+    width: 145px;
+    margin-left: 10%;
+}
+
+.butpri > div,.butpri > .svgbutpro {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+}
+
+.butpri:before {
+  content: "";
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transform:scaleX(0);
+  -moz-transform:scaleX(0);
+  -ms-transform:scaleX(0);
+  -o-transform:scaleX(0);
+  transform: scaleX(0);
+  -o-transform-origin: bottom right;
+  -ms-transform-origin: bottom right;
+  -moz-transform-origin: bottom right;
+  -webkit-transform-origin:bottom right;   
+  transform-origin: bottom right;
+  background: currentColor;
+  -o-transition: transform 0.25s ease-out;
+  -moz-transition: transform 0.25s ease-out;
+  -webkit-transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+}
+
+.butpri:hover:before {
+  -webkit-transform:scaleX(1);
+  -moz-transform:scaleX(1);
+  -ms-transform:scaleX(1);
+  -o-transform:scaleX(1);
+  transform: scaleX(1);
+  -o-transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+  -moz-transform-origin: bottom left;
+  -webkit-transform-origin: bottom left;   
+  transform-origin: bottom left;
+}
+
+.butpri .clone > *,.butpri .textbut > * {
+  opacity: 1;
+  font-family:'Lexend', sans-serif;
+  font-size: 1.2rem;
+  color: RGB(26, 26, 26, .95);
+  font-weight: 400;
+  letter-spacing: .05rem;
+  margin: 0;
+  -o-transition:  .0.2s;
+  -moz-transition:  .0.2s;
+  -webkit-transition:  .0.2s;
+  transition: 0.2s;
+  margin-left: 4px;
+}
+
+.butpri .clone > * {
+    -webkit-transform:translateY(60px);
+    -moz-transform:translateY(60px);
+    -ms-transform:translateY(60px);
+    -o-transform:translateY(60px);
+    transform: translateY(60px);
+}
+
+.butpri:hover .clone > * {
+  opacity: 1;
+  color: #000;
+  -webkit-transform:translateY(0px);
+  -moz-transform:translateY(0px);
+  -ms-transform:translateY(0px);
+  -o-transform:translateY(0px);
+  transform: translateY(0px);
+  -o-transition: all .2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  -moz-transition: all .2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  -webkit-transition: all .2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.butpri:hover .textbut > * {
+  opacity: 1;
+  -webkit-transform:translateY(-60px);
+  -moz-transform:translateY(-60px);
+  -ms-transform:translateY(-60px);
+  -o-transform:translateY(-60px);
+  transform: translateY(-60px);
+  -o-transition: all .2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  -moz-transition: all .2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  -webkit-transition: all .2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+  transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.butpri:hover .clone > :nth-child(1) {
+  -o-transition-delay: .15s;
+  -moz-transition-delay: .15s;
+  -webkit-transition-delay:.15s;
+    transition-delay: 0.15s;
+}
+
+.butpri:hover .clone > :nth-child(2) {
+  -o-transition-delay: .2s;
+  -moz-transition-delay:  .2s;
+  -webkit-transition-delay:  .2s;
+    transition-delay: 0.2s;
+}
+
+.butpri:hover .clone > :nth-child(3) {
+  -o-transition-delay: .25s;
+  -moz-transition-delay: .25s;
+  -webkit-transition-delay: .25s;
+    transition-delay: 0.25s;
+}
+
+.butpri:hover .clone > :nth-child(4) {
+  -o-transition-delay: .3s;
+  -moz-transition-delay: .3s;
+  -webkit-transition-delay: .3s;
+    transition-delay: 0.3s;
+}
+/* icon style and hover */
+.butpri .svgbutpro {
+  width: 20px;
+  right: 0;
+  top: 50%;
+  -webkit-transform:translateY(-50%) rotate(-50deg);
+  -moz-transform:translateY(-50%) rotate(-50deg);
+  -ms-transform:translateY(-50%) rotate(-50deg);
+  -o-transform:translateY(-50%) rotate(-50deg);
+  transform: translateY(-50%) rotate(-50deg);
+  -o-transition: .2s ease-out;
+  -moz-transition: .2s ease-out;
+  -webkit-transition: .2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.butpri:hover .svgbutpro {
+  -webkit-transform:translateY(-50%) rotate(-90deg);
+  -moz-transform:translateY(-50%) rotate(-90deg);
+  -ms-transform:translateY(-50%) rotate(-90deg);
+  -o-transform:translateY(-50%) rotate(-90deg);
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.fim{
+  width: 80%;
+  height: 90%;
+  display: grid;
+  display: -ms-grid;
+  display: -moz-grid;
+  justify-self: center;
+  align-self: center;
+  position: relative;
+  justify-content: center;
+}
+
+.setback{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-self: center;
+    width: 55px;
+    height: 55px;
+    background: RGB(26, 26, 26);
+    border-radius: 50%;
+}
+
+.svgset{
+    align-self: center;
+    justify-self: center;
+    color: rgb(232,232,232);
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.svgset:hover{
+    -webkit-transform:translateY(5px);
+    -moz-transform:translateY(5px);
+    -ms-transform:translateY(5px);
+    -o-transform: translateY(5px);
+    transform: translateY(5px);
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.setback::after{
+    content: "Ver mais";
+    font-family: 'Marope', sans-serif;
+    font-weight: 300;
+    font-size: .85rem;
+    color: RGB(26, 26, 26,.8);
+    text-align: center;
+    position: absolute;
+    top: -10px;
+    opacity: 0;
+    visibility: hidden;
+    -o-transition: opacity 0.3s, top 0.3s;
+    -moz-transition:opacity 0.3s, top 0.3s;
+    -webkit-transition: opacity 0.3s, top 0.3s;
+    transition: opacity 0.3s, top 0.3s;
+}
+
+.setback:hover::after{
+    position: absolute;
+    top: 70px;
+    opacity: 1;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    visibility: visible;
+}
+
+.setback::after {
+    opacity: 0;
+    visibility: visible;
+    -o-transition: opacity 0.3s, top 0.3s;
+    -moz-transition: opacity 0.3s, top 0.3s;
+    -webkit-transition: opacity 0.3s, top 0.3s;
+    transition: opacity 0.3s, top 0.3s;
+}
+
+:is(.clone,.textbut, .ctabut):focus-visible {
+    outline: 2px solid rgb(55, 61, 76); 
+}
+
+:is(.clone,.textbut, .butpri, .ctabut, .svgbutpro):active {
+    color: RGB(225,228,234);
+    -o-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.ctalii:focus-visible{
+    outline: 2px solid rgb(55, 61, 76); 
+}
+
+.ctalii:active{
+    opacity: .9;
+    -o-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.svgset:active{
+    opacity: .9;
+    -o-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+/*pag 6*/
+
+.pag6{
+    background: rgb(55, 61, 76);
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: 70px auto 70px;
+}
+
+.pag66{
+    width: 80%;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-self: center;
+    align-self: center;
+    grid-row: 2/3;
+    column-gap: 1%;
+}
+
+.cool2{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.slideshow {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-self: end;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.slideshow img {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    -o-transition: opacity 0.6s ease-in-out;
+    -moz-transition: opacity 0.6s ease-in-out;
+    -webkit-transition: opacity 0.6s ease-in-out;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.slideshow img.active {
+    opacity: 1;
+}
+
+.controls {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    -o-transform:rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background: RGB(26, 26, 26,.8);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.dot.active {
+    background: RGB(232,232,232,.8);
+}
+
+.textp6{
+    width: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    align-self: center;
+    grid-template-rows: repeat(3,auto);
+    row-gap: 25px;
+}
+
+.h5vamos{
+    width: 100%;
+    font-family: 'Lexend',sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .05rem;
+    line-height: 1.8rem;
+    color: rgb(204, 212, 225);
+    font-weight: 500;
+    margin: 0;
+    display: inline;
+}
+
+.descrit{
+    display: inline;
+    font-family: 'Marope',sans-serif;
+    font-size: .80rem;
+    color: RGB(204, 212, 225);
+    font-weight: 400;
+    letter-spacing: .05rem;
+    line-height: 1.1rem;
+    margin:0;
+}
+
+.orcamento{
+    height: 40px;
+    width: 150px;
+    margin-top: 25px;
+}
+
+.type2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid RGB(232,232,232,.9);
+    overflow: hidden;
+    border-radius: 0px;
+    color: RGB(232, 232, 232,.9);
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-txt2 {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    align-items: center;
+    justify-self: center;
+    grid-template-columns: repeat(2,auto);
+    z-index: 1;
+    font-weight: 600;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    font-family: 'Lexend' sans-serif;
+}
+
+.type2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    -o-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    background-color: RGB(232, 232, 232);
+    border-radius: 30px;
+    visibility: hidden;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+}
+
+.type2:hover {
+    box-shadow: 1px 1px 2px #252525;
+    color: RGB(26, 26, 26);
+    border: none;
+    background: RGB(232,232,232,.9);
+}
+
+.type2:hover::after {
+    visibility: visible;
+    -webkit-transform: scale(100) translateX(2px);
+    -moz-transform:scale(100) translateX(2px);
+    -ms-transform: scale(100) translateX(2px);
+    -o-transform: scale(100) translateX(2px);
+    transform: scale(100) translateX(2px);
+}
+
+:is(.orcamento, .type2):focus-visible {
+    outline: 2px solid rgb(26,26,26); 
+}
+
+.type2:active {
+    color: RGB(225,228,234);
+    background: RGB(26,26,26);
+    -o-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+
+/*pag 7*/
+
+.pag7{
+    width: 100%;
+    max-width: 100%;
+    height: 700px;
+    background: rgb(173, 173, 173, .3);
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: 70px auto 70px;
+}
+
+.pag77{
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: 15% 1fr;
+    justify-self: center;
+    align-self: center;
+}
+
+.h6folio{
+    width: 90%;
+    position: relative;
+    left: 10%;
+}
+
+.folio{
+    margin: 0;
+    width: 20%;
+    color: rgb(26, 26, 26);
+    font-size: 1.5rem;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    text-align: start;
+    letter-spacing: .1rem;
+    line-height: 1.9rem;
+}
+
+.contcarrossel{
+    width: 90%;
+    height: 100%;
+    position: relative;
+    left: 10%;
+    overflow: hidden;
+}
+  
+.carousel-controls .disabled {
+    pointer-events: none; /* Impede que as setas desativadas sejam clicadas */
+    opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+}
+
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    transition: all .6s;
+}
+
+.carousel-item{
+    width:calc(100% - 20px);
+    margin: 0 0px;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    transition: all .6s;
+}
+
+.carousel-item img:hover{
+    transform: scale(1.05,1.05);
+    transition: all .6s;
+}
+
+
+#marginzero{
+    margin-left: 0;
+}
+
+  
+.carousel-item  .image-text {
+    position: absolute;
+    top: 14%;
+    left: 65%;
+    background-color: RGB(230,230,230);
+    color: RGB(24,22,20);
+    font-size: .8rem;
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    letter-spacing: .12rem;
+    padding: 0px 10px ;
+    z-index: 2;
+    text-align: start;
+    width: 50%;
+    -webkit-transform:rotate(-90deg);
+    -moz-transform:rotate(-90deg);
+    -ms-transform:rotate(-90deg);
+    -o-transform:rotate(-90deg);
+    transform: rotate(-90deg);
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+.carousel .new-image-button {
+    display: block;
+    width:300px;
+    height: 100%;
+    background-color: transparent; /* Ajuste a cor de fundo conforme necessário */
+    border: none;
+    color: #fff; /* Ajuste a cor do texto conforme necessário */
+    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    text-align: center;
+}
+
+
+.new-image {
+    height: 100%;
+    width: calc(100% - 20px); /* Ajuste o valor da margem conforme necessário */
+    margin: 0 0px; /* Ajuste o valor da margem conforme necessário */
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+}
+
+  .ctalii2{
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    position: relative;
+    margin-left: 62px;
+}
+  
+.carcont{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-self: center;
+    width: 55px;
+    height: 55px;
+    background: RGB(26, 26, 26);
+    border-radius: 50%;
+}
+  
+
+.svgset2{
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    justify-self: center;
+    color: rgb(232,232,232);
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: .3s;
+    position: relative;
+    top: 1%;
+}
+  
+.svgset2:hover{
+    -webkit-transform:translateX(5px);
+    -moz-transform:translateX(5px);
+    -ms-transform:translateX(5px);
+    -o-transform:translateX(5px);  
+    transform: translateX(5px);
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: .3s;
+}
+  
+.carcont::after{
+    content: "Ver mais";
+    font-family: 'Marope', sans-serif;
+    font-weight: 300;
+    font-size: .85rem;
+    color: RGB(26, 26, 26,.8);
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    opacity: 0;
+    visibility: hidden;
+    -o-transition: opacity 0.3s, top 0.3s;
+    -moz-transition: opacity 0.3s, top 0.3s;
+    -webkit-transition: opacity 0.3s, top 0.3s;
+    transition: opacity 0.3s, top 0.3s;
+}
+  
+.carcont:hover::after{
+      position: absolute;
+      top: 70px;
+      opacity: 1;
+      -o-transition: .3s;
+      -moz-transition: .3s;
+      -webkit-transition: .3s;
+      transition: 0.3s;
+      visibility: visible;
+}
+  
+.carcont::after {
+      opacity: 0;
+      visibility: visible;
+      -o-transition: opacity 0.3s, top 0.3s;
+      -webkit-transition: opacity 0.3s, top 0.3s;
+      transition: opacity 0.3s, top 0.3s;
+}
+  
+
+/*footer*/
+
+.footer1{
+    width: 100%;
+    max-width: 100%;
+    height: 400px;
+    max-height: 100%;
+    background: rgb(26, 26, 26);
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: 80% 20%;
+    grid-template-columns: 1fr;
+}
+
+
+.corpo{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    width: 80%;
+    height: 65%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-self: center;
+    align-self: center;
+}
+
+.corpo a{
+    display: inline;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+
+}
+
+.corpo a:hover{
+    color: RGB(175, 192, 233);
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    text-decoration: underline;
+}
+
+.fuullt, .fuullt2, .fuullt3{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+}
+
+.fuullt a, .fuullt2 a, .fuullt3 a{
+    text-decoration: none;
+    color: RGB(230,230,230);
+
+}
+
+.fuullt{
+    justify-self: center;
+}
+
+.fuullt2{
+    position: relative;
+    left: 50;
+}
+
+.fuullt3{
+    justify-self: end;
+}
+
+
+.fooltite{
+    color: rgb(175, 175, 175);
+    font-family: 'Morope', sans-serif;
+    font-size: .9rem;
+    margin: 0;
+}
+
+.fale1, .linksut1{
+    color: RGB(230,230,230);
+    list-style: none;
+    margin: 0;
+    font-size: 1rem;
+    font-family: 'Marope', sans-serif;
+    font-weight: 300;
+    line-height: 2.5rem;
+    letter-spacing: .1rem;
+    text-align: start;
+    padding: 0px;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-rows: repeat(4,1fr);
+}
+
+li svg{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
+
+.footer2{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    width: 100%;
+    height: 100%;
+}
+
+.footcool{
+    width: 80%;
+    border-top: 1px solid RGB(175,175,175,.5);
+    grid-template-columns: repeat(3,1fr);
+    justify-self: center;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    height: 100%;
+    align-items: center;
+    user-select: none;
+}
+
+.logo11{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    width: 100%;
+    height: 100%;
+    grid-template-rows: 1fr;
+}
+
+.logofin{
+    color:RGB(59, 59, 58);
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.20rem;
+    font-weight: 500;
+    color: RGB(245,245,245);
+    letter-spacing: .16rem;
+    align-self: center;
+    margin: 0;
+}
+
+.copy{
+    color: rgb(175,175,175);
+    font-family: 'Lexend', sans-serif;
+    font-size: .9rem;
+    font-weight: 200;
+    margin: 0;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-self: center;
+}
+
+.logoredes{
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    width: 100%;
+    height: 100%;
+}
+
+.logoredes2{
+    width: 60%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-self: end;
+    column-gap: 4px;
+}
+
+
+.logoredes a{
+    margin: 0;
+    border: .2px solid RGB(175,175,175,.3);
+    border-radius: 50%;
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    justify-items: center;
+    align-items: center;
+    justify-self: end;
+    width: 2rem;
+    height: 2rem;
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+:is(.twit, .insta, .face, .gate):hover{
+    -o-transition: all .3s;
+    -moz-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+.twit:hover{
+    background: rgb(28, 152, 230);
+}
+
+.insta:hover{
+    background: linear-gradient(rgb(79, 91, 213),rgb(150, 47, 191),rgb(214, 41, 118),rgb(250, 126, 30),rgb(254, 218, 117));
+}
+
+.face:hover{
+    background: rgb(57, 85, 145);
+}
+
+.gate:hover{
+    background: rgb(0,0,0);
+}
+
+.logoredes svg{
+    padding: 0;
+    margin: 0;
+    width: 75%;
+    height: 75%;
+}
+
+:is(.fale1 a, .linksut1 a):focus-visible {
+    outline: 2px solid rgb(55, 61, 76); 
+}
+
+.logoredes2 a:focus-visible{
+    outline: 2px solid rgb(230, 230, 230);  
+}
+
+:is(.fale1 a, .linksut1 a, .fuullt a):active {
+    color: RGB(0,0,0);
+    -o-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none;
+}
+
+.logoredes2 a:active{
+    opacity: .8;
+    -o-transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    transition: none; 
+}
+
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(230, 230, 230);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(55, 61, 76);
+    border: none;
+}
+
+/* Para navegadores baseados no Firefox */
+::-moz-scrollbar {
+    width: 6px;
+}
+
+::-moz-scrollbar-track {
+    background-color: rgb(230, 230, 230);
+}
+
+::-moz-scrollbar-thumb {
+    background-color: rgb(55, 61, 76);
+}
+
+
+/* Para navegadores baseados no Internet Explorer e Edge (versões antigas) */
+::-ms-scrollbar {
+    width: 6px;
+}
+
+::-ms-scrollbar-track {
+    background-color: rgb(230, 230, 230);
+}
+
+::-ms-scrollbar-thumb {
+    background-color: rgb(55, 61, 76);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1px) and (max-width: 600px)  {
+    .toptite {
+        font-size: .75rem;
+        margin-bottom: 1.5%;
+     }
+
+    .titlehome {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+     }
+
+     .home1 {
+    font-size: .93rem;
+   }
+
+   .contac1 {
+       font-size: .92rem;
+   }
+   
+   .header1 {
+       grid-template-columns:5% 1fr 1fr 5%;
+   }
+   
+   .btn-txt3, .btn-txt1, .btn-txt2 {
+       font-size: .88rem;
+   }
+
+   .myprojet {
+    margin-top: 3%;
+    height: 34px;
+    width: 120px;
+   }
+
+       
+       /* pag 2 */
+       
+       .pag2 {
+           height: 1100px;
+        gap: 0%;
+    }
+    
+    .pagcout{
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 1fr 35px auto 70px;
+        justify-self: center;
+        align-self: flex-start;
+        gap: 0%;
+    }
+
+    .sub11{
+        grid-row: 4/5;
+    }
+    
+    .sub111{
+        width: 100%;
+        justify-self: center;
+    }
+    
+    .linha1{
+        width: 70px;
+        left: 120px;
+    }
+    
+    .quem, .foco{
+        font-size: 1rem;
+        letter-spacing: .1rem;
+        line-height: 1.2rem;
+    }
+    
+    .cabeja1, .cabeja2{
+        margin-top: 3%;
+        width: 100%;
+    }
+    
+    .text1, .text2{
+        font-size: .88rem;
+        letter-spacing: .1rem;
+        line-height: 1.2rem;
+    }
+    
+    .somos, .objtiv{
+        font-size: .89rem;
+        letter-spacing: .1rem;
+    }
+
+    
+    .sub22 {
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    .sub22 img{
+        object-fit: cover;
+        -o-object-fit: cover;
+    }
+    
+
+    /*Pagina 3*/
+
+    
+    .empilhamento11 {
+        align-self: center;
+        overflow: visible;
+    }
+    
+    .empilhamento11 img {
+        object-fit: cover;
+        -o-object-fit: cover;
+    }
+    
+    
+    .empilhamento11 {
+        width: 85%;
+        height: 100%;
+        grid-template-rows: 70px 1fr 70px ;
+    }
+
+    .empilhamento111 {
+        grid-row: 2/3;
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    .empicol2 {
+        grid-template-rows: auto 1fr;
+        border-left: none;
+    }
+
+    .empicol2 {
+        border: none;
+    }
+
+    .empirow1{
+        grid-template-rows: 1fr 35px;
+    }
+
+    .empirow2{
+        grid-row: 2/3;
+    }
+    
+    .empirow1{
+        width: 100%;
+        height: 100%;
+        justify-self: center;
+        align-content: center;
+        background: rgb(55, 61, 76);
+        z-index: 2;
+    }
+
+    .contnuber{
+        width: 100%;
+        height: 100%;
+    }
+
+    .btn-txt2 svg, .btn-txt1 svg {
+        width: 17px;
+        height: 17px;
+    }
+    
+    .numeros, .h4projet, .levamo, .h5vamos{
+        font-size: 1.05rem;
+        letter-spacing: .11rem;
+        line-height: 1.2rem;
+    }
+    
+    
+    .textnuber, .proporci, .descrit{
+        justify-self:  start;
+        font-size: .88rem;
+        letter-spacing: .1rem;
+        line-height: 1.2rem;
+    }
+    
+    .contact2,.orcamento{
+        height: 35px;
+        width: 130px;
+        margin-top: 25px;
+    }
+
+    .orcamento{
+        margin-top: 20px;
+    }
+
+
+    .empirow2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    
+    
+    .numbers{
+        justify-self: center;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        row-gap: 62.7px;
+    }
+    
+    .pic1{
+        grid-row: 2/3;
+        overflow: hidden;
+        display: grid;
+        align-self: flex-end;
+        z-index: 1;
+        object-fit: cover;
+    }
+    
+    .tag{
+        font-size: 2rem;
+    }
+
+    .tag2{
+        font-size: .85rem;
+        letter-spacing: .09rem;
+        line-height: 1rem;
+    }
+    
+    
+    /*Pagina 4*/
+    .pagtest{
+        height: 1295px;
+    }
+    
+    .pag80{
+        grid-template-rows: 1fr;
+        z-index: 1;
+    }
+    
+    .test44{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content 1fr;
+    }
+
+    
+    .reto1,.reto2,.reto3, .reto4{
+        z-index: 2;
+    }
+
+    .reto1{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .reto11{
+        width: 100%;
+
+    }
+    
+    .spai{
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .subreto{
+        margin-top: 55.5px;
+        margin-left: 0%;
+    }
+    
+
+    .partir1{
+        font-size: .69rem;
+        margin-right: .16rem;
+        position: absolute;
+        top: -20%;
+        left: 0%;
+        font-weight: 300;
+        letter-spacing: .02rem;
+    }
+    
+    .partir2{
+        font-size: .75rem;
+        font-weight: 300;
+    }
+    
+    .preco{
+        font-size: 1.1rem;
+        margin-left: 45px;
+        font-weight: 300;
+    }
+    
+    :is(.reto2, .reto3, .reto4) span{
+        top: 22px;
+        left: 22px;
+        font-size: .8rem;
+        letter-spacing: .05rem;
+        padding: 0px 0px ;
+        text-align: start;
+        margin: 0;
+        opacity: 100%;
+    }
+
+    #carromobid{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: repeat(3, max-content);
+        grid-template-columns: 1fr;
+        align-content: flex-end;
+    }
+
+    .reto2, .reto3,.reto4{
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    :is(.reto2, .reto3,.reto4) img {
+        object-fit: cover;
+        -o-object-fit: cover;
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+    /*Pagina 5*/
+    
+    
+    .pag5{
+        height: 1900px;
+        display: grid;
+        display: -ms-grid;
+        display: -moz-grid;
+    }
+    
+    .pag55{
+        height: 100%;
+        align-self: center;
+        justify-self: center;
+        grid-template-rows: 1fr;
+    }
+    
+    .camada{
+        height: 100%;
+        grid-template-columns:  1fr;
+        grid-template-rows: 80px max-content max-content 80px;
+        grid-template-rows: 80px -moz-max-content -moz-max-content 80px;
+        grid-template-rows: 80px  -webkit-max-content  -webkit-max-content 80px;
+    }
+    
+    
+    .colun1, .colun2{
+        grid-template-rows: 309px 100px 309px 100px ;
+        grid-template-columns: 1fr;
+        
+    }
+    
+    .colun2{
+        grid-template-rows: 309px 100px 309px max-content ;
+        grid-template-rows: 309px 100px 309px -moz- max-content ;
+        grid-template-rows: 309px 100px 309px -webkit-max-content ;
+        align-items: start;
+        grid-template-columns: 1fr;
+    }
+
+    .titeproj{
+        justify-self: center;
+        align-self: flex-start;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    
+    .horizontal2{
+        border-top: 1.8px solid RGB(26, 26, 26,.8);
+        width: 35%;
+        top: 30%;
+    }
+    
+    
+    .projets1,.projets2, .projets3,.projets4{
+        width: 100%;
+        height: 309px;
+    }
+    
+    .projets2{
+        width: 100%;
+    }
+    
+
+    #butsala{
+        grid-row-start: -4;
+      grid-row-end: -3;
+    }
+    
+    #scritorio{
+      grid-row-start: -4;
+      grid-row-end: -3;
+    }
+    
+    #ctabut4{
+        margin-left: 0;
+    }
+    
+    .linha4{
+        width: 100%;
+        border: 0;
+    }
+    
+    .linha44{
+        width: 100%;
+        justify-items: end;
+    }
+    
+    .horizontal14{
+        width: 100%;
+    }
+    
+    .projets3{
+        width: 100%;
+    }
+
+    #butpri4{
+        margin-left: 0%;
+    }
+    
+    .butpri .clone > *,.butpri .textbut > * {
+      font-size: 1.1rem;
+    }
+
+    /* icon style and hover */
+    .butpri .svgbutpro {
+      width: 18px;
+      right: 18px;
+    }
+
+
+    .fim{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .setback, .carcont{
+        position: relative;
+        top: 40%;
+        width: 44px;
+        height: 44px;
+    }
+
+    .svgset, .svgset2{
+        width: 24px;
+        height: 24px;
+    }
+    
+    
+    .setback::after, .carcont::after{
+        font-size: .8rem;
+    }
+    
+    .setback:hover::after{
+        top: 65px;
+    }
+    
+    
+  /*pag6 */
+    
+    .pag66{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    
+    .cool2{
+        width: 100%;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        align-items: start;
+        justify-self: center;
+    }
+    
+    .slideshow {
+        width: 100%;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-self: center;
+    }
+    
+    .slideshow img {
+        object-fit: cover;
+        -o-object-fit: cover;
+    }
+    
+    .slideshow img.active {
+        opacity: 1;
+    }
+    
+    .controls {
+        margin-top: 20px;
+        -webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -ms-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        transform: rotate(0deg);
+        margin-left:40%;
+    }
+
+
+    
+    /*pag 7*/
+    
+    .folio{
+        font-size: 1.2rem;
+        letter-spacing: .1rem;
+        line-height: 1.5rem;
+    }
+
+    .carousel-item{
+        width:calc(100% - 20px);
+        margin: 0 0px;
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+    }
+      
+    .carousel-item  .image-text {
+        font-size: .7rem;
+        line-height: 1.25rem;
+    }
+      
+
+    /* Footer */
+    
+    .footer1{
+        height: 600px;
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .corpo{
+        height: 80%;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: repeat(2, auto);
+        row-gap: 40px;
+        justify-self: center;
+        align-self: center;
+    }
+    
+    .fuullt, .fuullt2, .fuullt3{
+        grid-template-rows: 10% 90%;
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+    
+    .fuullt{
+        justify-self: end;
+    }
+    
+    .fuullt3{
+        justify-self: start;
+    }
+
+    .fooltite{
+        font-size: 0.88rem;
+    }
+
+
+    .fale1, .linksut1{
+        font-size: .89rem;
+        line-height: 1rem;
+        grid-template-rows: repeat(4,1fr);
+    }
+    
+    li svg{
+        width: 15px;
+        height: 15px;
+        top: 3px;
+    }
+    
+    .footcool{
+        grid-template-columns: repeat(3,auto);
+    }
+    
+    .logo11{
+        width: 80%;
+        height: 100%;
+        grid-template-rows: 1fr;
+    }
+    
+    .logofin{
+        font-size: 1rem;
+    }
+    
+    .copy{
+        width: 50%;
+        font-size: .73rem;
+        width: 80%;
+        line-height: 1rem;
+        text-align: center;
+    }
+    
+    .logoredes2{
+        justify-self: start;
+        column-gap: 5px;
+    }
+    
+    
+    .logoredes a{
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    
+    .logoredes svg{
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 319px){
+
+    .pag1 {
+        background: url(imagen/heder319.png) no-repeat;
+        background-size: cover;
+    }
+
+    .toptite{
+        margin-left: 5%;
+        letter-spacing: .09rem;
+    }
+
+    .titlehome{
+        font-size: 1.25rem;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .myprojet{
+        margin-left: 5%;
+        width: 114px;
+        height: 32px;
+    }
+
+    .btn-txt4{
+        font-size: .8rem;
+        letter-spacing: .09rem;
+    }
+
+    .home1{
+        font-size: .83rem;
+        letter-spacing: .09rem;
+    }
+
+    /* pag 2*/
+
+    .pag2{
+        height: 1127px;
+    }
+
+    @media only screen and (max-width: 296px) {
+        .pag2{
+            height: 1180px;
+        } 
+    }
+
+    @media only screen and (max-width: 282px) {
+        .pag2{
+            height: 1200px;
+        } 
+    }
+
+    @media only screen and (max-width: 251px) {
+        .pag2{
+            height: 1240px;
+        } 
+    }
+
+    @media only screen and (max-width: 238px) {
+        .pag2{
+            height: 1280px;
+        } 
+    }
+
+    @media only screen and (max-width: 227px) {
+        .pag2{
+            height: 1350px;
+        } 
+    }
+
+    @media only screen and (max-width: 201px) {
+        .pag2{
+            height: 1480px;
+        } 
+    }
+
+
+
+    .pagcout{
+        width: 90%;
+        grid-template-rows: 35px 1fr 35px auto 35px;
+    }
+
+    .linha1{
+        left: 110px;
+        border-top: 1.5px solid rgb(26, 26, 26,.8);
+    }
+
+    .quem, .foco{
+        font-size: .9rem;
+    }
+
+    .text1, .text2{
+        font-size: .8rem;
+        letter-spacing: .06;
+    }
+
+    .objtiv, .somos{
+        font-size: .81rem;
+        letter-spacing: .06rem;
+    }
+
+    /* pag 3 */
+
+    .empilhamento11{
+        width: 90%;
+        grid-template-rows: 35px auto 35px;
+    }
+
+    .numeros, .levamo, .h4projet,.h5vamos{
+        font-size: 1rem;
+        line-height: 1.1rem;
+        letter-spacing: .1rem;
+        text-align: center;
+    }
+
+    .textnuber,.descrit, .proporci{
+        font-size: .815rem;
+        letter-spacing: .095rem;
+        line-height: 1.1rem;
+        text-align: justify;
+    }
+
+    .btn-txt3, .btn-txt2, .btn-txt1{
+        font-size: .82rem;
+       }
+    
+    .contact2, .orcamento{
+        height: 34px;
+        width: 120px;
+        justify-self: center;
+    }
+
+
+    /* pag 4 */
+    .pagtest{
+     height: 1310px;
+    }
+    
+    @media only screen and (max-width:308px) {
+        .pagtest{
+            height: 1340px;
+         }
+     }
+     
+     @media only screen and (max-width:263px) {
+      .pagtest{
+          height: 1360px;
+      }
+     }
+     @media only screen and (max-width:243px) {
+         .pagtest{
+             height: 1390px;
+         }
+        }
+     @media only screen and (max-width:220px) {
+      .pagtest{
+          height: 1430px;
+      }
+     }
+    .levamo{
+     width: 90%;
+    }
+    .proporci{
+     width: 90%;
+     justify-self: center;
+    }
+    .subreto{
+     margin-left: 25%;
+    }
+    .preco{
+     font-size: .96rem;
+    }
+    .reto11{
+     grid-template-rows: 35px auto 1fr 35px
+    }
+    .tag{
+     font-size: 1.8rem;
+    }
+    :is(.reto2, .reto3,.reto4) span{
+     font-size: .75rem;
+     letter-spacing: .045rem;
+    }
+
+
+    /* pag 5 */
+
+    .horizontal2 {
+     top:20px
+    }
+    .pag55{
+     width: 90%;
+    }
+
+       
+    #butpri1{
+        width: 156px;
+    }
+    
+    #butpri2{
+        width: 192px;
+    }
+    
+    #butpri3{
+        width: 202px;
+    }
+    
+    #butpri4{
+        width: 138px;
+        margin-left: 0%;
+    }
+
+
+    .butpri .svgbutpro {
+        width: 16px;
+        right: 16px;
+        top: 31px;
+    }
+
+    .butpri .clone > *,.butpri .textbut > * {
+        font-size: 1rem;
+    }
+
+    .setback, .carcont{
+        width: 40px;
+        height: 40px;
+    }
+
+    .svgset, .svgset2{
+        height: 23px;
+        width: 2;
+    }
+
+    /* pag 6 */
+
+    .pag6{
+        height: 750px;
+        grid-template-rows: 35px auto 35px;
+    }
+    
+    .pag66{
+        width: 90%;
+        height: 100%;
+        gap: 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto); 
+        
+    }
+    
+    .cool2{
+        grid-template-rows: 301px 1fr;
+    }
+    
+    @media only screen and (max-width:300px) {
+        .cool2{
+            grid-template-rows: 283px 1fr;
+        } 
+    }
+
+    @media only screen and (max-width:275px) {
+        .cool2{
+            grid-template-rows: 260px 1fr;
+        } 
+
+
+        .pag6{
+            height: 680px;
+        }
+
+        .pag66{
+            gap: 20px;
+        }
+
+        .textp6{
+            align-self: self-start;
+        }
+    }
+
+    @media only screen and (max-width:247px) {
+        .cool2{
+            grid-template-rows: 233px 1fr;
+        } 
+    }
+
+    @media only screen and (max-width:220px) {
+        .cool2{
+            grid-template-rows: 206px 1fr;
+        } 
+    }
+
+    @media only screen and (max-width:197px) {
+        .cool2{
+            grid-template-rows: 185px 1fr;
+        } 
+    }
+
+    .orcamento{
+        margin-top: 5px;
+    }
+
+    /* pag 7 */
+
+    .folio{
+        width: 70%;
+        font-size: 1rem;
+    }
+
+
+    .carousel-item  .image-text {
+        font-size: .55rem;
+        line-height: 1.1rem;
+    }
+      
+
+
+    .pag7{
+        grid-template-rows: 35px auto 35px;
+    }
+
+    @media only screen and (max-width:319px) {
+        .pag7{
+            height: 505px;
+        }
+    }
+
+    
+    @media only screen and (max-width:300px) {
+        .pag7{
+            height: 480px;
+        }
+    }
+
+    @media only screen and (max-width:280px) {
+        .pag7{
+            height: 440px;
+        }
+    }
+
+    @media only screen and (max-width:268px) {
+        .pag7{
+            height: 400px;
+        }
+    }
+
+    @media only screen and (max-width:255px) {
+        .pag7{
+            height: 450px;
+        }
+    }
+
+
+
+    /*footer*/
+
+
+    .footer1{
+        height: 700px;
+    }
+
+    .corpo{
+        width: 100%;
+        height: 90%;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(3, auto);
+        row-gap: 30px;
+    }
+
+    .fale1, .linksut1{
+        font-size: .76rem;
+        font-weight: 300;
+        line-height: 1rem;
+        letter-spacing: .06rem;
+        text-align: center;
+    }
+
+    .fuullt, .fuullt2, .fuullt3{
+        justify-self: center;
+        width: 90%;
+    }
+
+    .fuullt a, .fuullt2 a, .fuullt3 a{
+        justify-self: center;
+    }
+
+    .fale1 svg{
+        height: 13px;
+        width: 13px;
+        top: 3px;
+    }
+
+
+    .fooltite{
+        text-align: center;
+        font-size: .77rem;
+    }
+
+    .footcool{
+        width: 90%;
+    }
+
+    .logofin{
+        font-size: .85rem;
+    }
+
+    .copy{
+        font-size: .68rem;
+    }
+
+    .logoredes2{
+        gap: 2px;
+    }
+
+    .logoredes a{
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .logoredes svg{
+        width: 60%;
+        height: 60%;
+    }
+
+    .zap{
+        opacity: 100%;
+        position: fixed;
+        top: 90vh;
+        left: 82vw;
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 414px){
+
+    .pag1 {
+        background: url(imagen/heder414.png) no-repeat;
+        background-size: cover;
+    }
+    
+    .titlehome {
+        font-size: 1.45rem;
+        width: 75%;
+     }
+
+     
+     .myprojet {
+       margin-top: 4%;
+       width: 114px;
+       height: 34px;
+   }
+
+
+
+   /*pag 2*/
+
+   .linha1{
+    width: 65px;
+    left: 114px;
+    top: -10px;
+   }
+
+   .quem, .foco{
+    font-size: .94rem;
+   }
+
+   .text1, .text2{
+    font-size: .86rem;
+    letter-spacing: .09rem;
+   }
+
+   .somos, .objtiv{
+    font-size: .87rem;
+    letter-spacing: .09rem;
+   }
+
+    .pagcout{
+        width: 85%;
+        align-self: flex-start;
+    }
+
+   /*pag 3*/
+
+   .numeros, .h4projet,.levamo,.h5vamos{
+    font-size: 1rem;
+    line-height: 1.2rem;
+   }
+
+   .textnuber, .descrit, .proporci{
+    font-size: .84rem;
+    line-height: 1.15rem;
+   }
+
+   .preco{
+    font-size: 1rem;
+   }
+
+   .btn-txt3, .btn-txt2, .btn-txt1{
+    font-size: .82rem;
+   }
+
+  .contact2, .orcamento{
+    height: 34px;
+    width: 120px;
+   }
+
+   .toptite{
+    margin-bottom: 1.5%;
+   }
+    
+    .empicol2 {
+        grid-template-rows: auto 1fr;
+    }
+    
+    .contnuber{
+        width: 100%;
+    }
+    
+    .numbers{
+        width: 85%;
+    }
+    
+    .tag{
+        font-size: 1.8rem;
+    }
+    
+    .tag2{
+        line-height: .95rem;
+        font-weight: 350;
+    }
+
+    /*Pagina 4*/
+   
+    
+    .levamo{
+        width: 85%;
+    }
+    
+    .spai{
+        width: 85%;
+    }
+
+    
+    :is(.reto2, .reto3, .reto4) span{
+        top: 22px;
+        left: 22px;
+    }
+
+    
+    
+    /*Pagina 5*/
+    
+    .pag55{
+        width: 85%;
+    }
+
+    .titeproj{
+        width: 85%;
+        height: 85%;
+    }
+
+    #butpri1{
+        width: 156px;
+    }
+    
+    #butpri2{
+        width: 192px;
+    }
+    
+    #butpri3{
+        width: 202px;
+    }
+    
+    #butpri4{
+        width: 138px;
+        margin-left: 0%;
+    }
+
+
+    .butpri .svgbutpro {
+        width: 16px;
+        right: 16px;
+        top: 31px;
+    }
+
+    .butpri .clone > *,.butpri .textbut > * {
+        font-size: 1rem;
+      }
+
+  /*pag6 */
+  
+  .pag6{
+      height: 900px;
+    }
+    
+    .pag66{
+        width: 85%;
+        height: 100%;
+        gap: 30px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, auto);    }
+        
+        .cool2{
+            grid-template-rows: 367px 1fr;
+        }
+
+    @media only screen and (max-width:414px) {
+        .pag2{
+            height: 1200px;
+        }
+        
+        .pagtest{
+            height: 1330px;
+        }
+    }
+      
+    @media only screen and (max-width:400px) {
+            .pagtest{
+                height: 1355px;
+            }
+    }
+            
+    @media only screen and (max-width:388px) {
+        .pag7{
+             height: 650px;
+            }
+    }
+    @media only screen and (max-width:380px) {
+        .cool2{
+            grid-template-rows: 335px 1fr;
+        }
+
+        .pagtest{
+            height: 1370px;
+        }    
+    }
+    
+    @media only screen and (max-width:360px) {
+        .cool2{
+            grid-template-rows: 305px 1fr;
+        }
+
+        .pagtest{
+            height: 1385px;
+        }    
+
+        .pag7{
+            height: 615px;
+        }
+    }
+
+    @media only screen and (max-width:337px) {
+        .pagtest{
+            height: 1400px;
+        }
+    }
+
+    @media only screen and (max-width:322px) {
+        .cool2{
+            grid-template-rows: 280px 1fr;
+        }
+
+        .pag7{
+            height: 580px;
+        }
+    }
+    
+
+    .slideshow {
+        height: 367px;
+    }
+
+    .textp6{
+        align-self: self-start;
+    }
+    
+    /*pa 7*/
+    
+    .folio{
+        width: 50%;
+    }
+
+    
+
+    /* Footer */
+    
+    .footer1{
+        grid-template-rows: 85% 15%;
+    }
+    
+    
+    .corpo{
+        width: 85%;
+    }
+    
+    .footcool{
+        width: 85%;
+    }
+
+    .fooltite{
+        font-size: .76rem;
+    }
+
+    .fale1, .linksut1{
+        font-size: .77rem;
+        line-height: 1rem;
+    }
+
+    li svg{
+        width: 14px;
+        height: 14px;
+        position: relative;
+        top: 3px;
+    }
+
+    .logofin{
+        font-size: .85rem;
+    }
+    
+    .logoredes2{
+        justify-self: start;
+        width: 100%;
+        gap: 2px;
+    }
+
+    .logoredes a{
+        width: 1.4rem;
+        height: 1.4rem;
+    }
+
+    .logoredes svg{
+        width: 70%;
+        height: 70%;
+    }
+
+    .copy{
+        text-align: center;       
+        font-size: .76rem;
+    }
+    
+    .zap{
+        opacity: 100%;
+        position: fixed;
+        top: 90vh;
+        left: 82vw;
+        z-index: 2;
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+
+@media only screen and (min-width: 415px) and (max-width: 600px)  {
+    .pag1 {
+        background: url(imagen/heder600.png) no-repeat;
+        background-size: cover;
+    }
+    
+
+    .titlehome {
+        width: 60%;
+     }
+
+       
+       /* pag two */
+
+
+
+       @media only screen and (max-width: 507px){
+        .pag2{
+            height: 1127px;
+        }
+       }
+
+       @media only screen and (max-width: 456px){
+        .pag2{
+            height: 1162px;
+        }
+       }
+
+    .pagcout{
+        width: 85%;
+        align-self: center;
+    }
+
+
+    /*Pagina 3*/
+
+
+
+    .contnuber{
+        width: 100%;
+    }
+        
+    
+    .numbers{
+        width: 100%;
+    }
+    
+    
+    /*Pagina 4*/
+    
+    
+    
+    .levamo{
+        width: 80%;
+    }
+    
+    .spai{
+        width: 80%;
+    }
+    
+
+
+
+    
+    /*Pagina 5*/
+
+    
+    .pag55{
+        width: 80%;
+    }
+
+    .titeproj{
+        width: 80%;
+        height: 85%;
+    }
+
+    #butpri1{
+        width: 168px;
+    }
+    
+    #butpri2{
+        width: 208px;
+    }
+    
+    #butpri3{
+        width: 220px;
+    }
+    
+    #butpri4{
+        width: 148px;
+        margin-left: 0%;
+    }
+
+
+    .butpri .svgbutpro {
+        width: 18px;
+        right: 18px;
+        top: 31px;
+    }
+
+
+     
+  /*pag6 */
+
+    .pag6{
+        height: 1027px;
+    }
+    
+    .pag66{
+        width: 80%;
+        height: 100%;
+        grid-template-rows: calc(50% + 127px) calc(50% - 127px);
+        gap: 50px;
+    }
+
+
+    .cool2{
+        grid-template-rows: 494px 1fr;
+    }
+    
+    
+
+    .textp6{
+        align-self: self-start;
+    }
+    
+
+    /*pa 7*/
+    
+    .folio{
+        width: 40%;
+    }
+      
+      
+    
+    /* Footer */
+    
+    .footer1{
+        grid-template-rows: 85% 15%;
+    }
+    
+    
+    .corpo{
+        width: 85%
+     }
+    
+    
+     .footcool{
+        width: 85%;
+    }
+
+
+    .zap{
+        opacity: 100%;
+        position: fixed;
+        top: 90vh;
+        left: 84vw;
+        z-index: 2;
+        width: 65px;
+        height: 65px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+
+    /*pag1*/
+    .pag1 {
+        background: url(imagen/heder800.png) no-repeat;
+        background-size: cover;
+    }
+    
+    .titlehome {
+        width: 45%;
+        font-size: 1.6rem;
+        letter-spacing: 0.16rem;
+        line-height: 2rem
+    }
+    
+    .toptite{
+        font-size: .86rem;
+        letter-spacing: .09rem;
+    }
+
+    .header1{
+        grid-template-columns:5% 1fr 1fr 5%;
+    }
+    
+    .home1 {
+        letter-spacing: .09rem;
+        font-size: .86rem;
+    }
+    
+    .myprojet {
+        height: 35px;
+        width: 124px;
+    }
+
+    .btn-txt3 {
+        font-size: .86rem;
+        letter-spacing: .09rem;
+    }
+    .contac1 {
+        font-size: .87rem;
+    }
+
+
+
+    /*pag 2*/
+    .pag2{
+        height: auto;
+        grid-template-rows: 1fr;
+        gap: 0;
+    }
+
+    .pagcout{
+        height: 100%;
+        width: 85%;
+        gap: 3%;
+        row-gap: 0;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    .linha1{
+        width: 50px;
+        left: 120px;
+        top: -10px;
+    }
+    
+    .quem, .foco{
+        font-size: 1rem;
+        letter-spacing: .09rem;
+        line-height: 1.1rem;
+    }
+
+    .sub111{
+        width: 90%;
+    }
+    
+    .cabeja1{
+        margin-top: 3%;
+        width: 100%;
+    }
+    
+    .text1, .text2{
+        width: 100%;
+        font-size: .85rem;
+        letter-spacing: .09rem;
+        line-height: 1.2rem;
+    }
+    
+    .somos, .objtiv{
+        font-size: .86rem;
+    }
+    
+    .cabeja2{
+        margin-top: 3%;
+        width: 100%;
+        height: auto;  
+    }
+
+
+    /*pag 3*/
+
+    .empilhamento11 {
+        width: 85%;
+        height: 100%;
+        grid-template-rows: 70px 1fr 70px;
+    }
+
+    .empilhamento111 {
+        grid-row: 2/3;
+        height: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    .empicol2 {
+        grid-template-rows: auto 1fr;
+        border-left: none;
+    }
+
+    .empicol2 {
+        border: none;
+    }
+
+    .empirow1{
+        grid-template-rows: 1fr 35px;
+    }
+
+    .empirow2{
+        grid-row: 2/3;
+    }
+
+    .pic1{
+        grid-row: 2/3;
+        overflow: hidden;
+        display: grid;
+        align-self: flex-end;
+        z-index: 1;
+        object-fit: cover;
+    }
+
+    .contnuber{
+        width: 100%;
+    }   
+    
+
+    .numeros, .levamo, .h5vamos, .folio, .h4projet{
+        font-size: 1.11rem;
+        letter-spacing: .1rem;
+        line-height: 1.2rem;
+    }
+    
+    .textnuber, .proporci, .descrit{
+        font-size: .87rem;
+        letter-spacing: .1rem;
+        line-height: 1.2rem;
+        width: 100%;
+    }
+    
+    .contact2, .orcamento{
+        height: 34px;
+        width: 124px;
+        margin-top: 25px;
+    }
+
+    .orcamento{
+        margin: 0;
+    }
+    
+    .btn-txt1, .btn-txt2 {
+        font-size: .85rem;
+        letter-spacing: .09rem;
+    }
+    
+    .btn-txt1 svg, .btn-txt2 svg{
+        width: 18px;
+        height: 18px;
+    }
+
+
+    .tag{
+        font-size: 1.8rem;
+        letter-spacing: .1rem;
+    }
+    
+    .tag2{
+        font-size: .87rem;
+        letter-spacing: .09rem;
+        line-height: 1.2rem;
+    }
+
+    /*pag 4*/
+
+    @media only screen and (min-width: 601px) and (max-width: 703px) {
+        .pagtest{
+            height: 700px;
+        }
+    }
+
+    @media only screen and (min-width: 704px) and (max-width: 800px) {
+        .pagtest{
+            height: 739px;
+        }
+    }
+    
+    @media only screen and (min-width: 621px) and (max-width: 634px) {
+        .pagtest{
+            height: 693px;
+        }
+    }
+
+    
+    .pagtest{
+        height: 718px;
+    }
+    
+    .pag80{
+        grid-template-rows: 1fr;
+        z-index: 1;
+    }
+    
+    .test44{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, max-content);
+    }
+
+    
+    .reto1,.reto2,.reto3, .reto4{
+        z-index: 2;
+    }
+
+    .reto1{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .reto11{
+        width: 100%;
+
+    }
+    
+    .levamo{
+        width: 85%;
+    }
+    
+    .spai{
+        width: 85%;
+        grid-template-columns: 1fr;
+    }
+    
+    
+    .subreto{
+        margin-top: 55.5px;
+        margin-left: 0%;
+    }
+    
+
+    .partir1{
+        font-size: .69rem;
+        margin-right: .16rem;
+        position: absolute;
+        top: -20%;
+        left: 0%;
+        font-weight: 300;
+        letter-spacing: .02rem;
+    }
+    
+    .partir2{
+        font-size: .75rem;
+        font-weight: 300;
+    }
+    
+    .preco{
+        font-size: 1.05rem;
+        margin-left: 45px;
+        font-weight: 300;
+    }
+
+    .carromobid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr;
+        grid-column-start:2;
+        grid-column-end: 3;
+    }
+    
+    :is(.reto2, .reto3, .reto4) span{
+        font-size: .78rem;
+        top: 22px;
+        left: 22px;
+        letter-spacing: .12rem;
+    }
+
+    /*pag 5*/
+
+    .pag55{
+        width: 85%;
+    }
+    
+
+    .horizontal2{
+        border-top: 1.8px solid RGB(26, 26, 26,.8);
+        top: 20px;
+    }
+
+    .butpri .clone > *,.butpri .textbut > * {
+        font-size: 1rem;
+    }
+
+    .butpri .svgbutpro {
+        width: 18px;
+        right: 18px;
+        top: 30px;
+    }
+
+     
+    #butpri1{
+        width: 160px;
+    }
+    
+    #butpri2{
+        width: 196px;
+    }
+    
+    #butpri3{
+        width: 205px;
+    }
+    
+    #butpri4{
+        width: 140px;
+        margin-left: 10%;
+    }
+
+    .setback,.carcont{
+        height: 46px;
+        width: 46px;
+    }
+
+    .svgset, .svgset2{
+        height: 26px;
+        width: 26px;
+    }
+
+
+
+    /*pag 6*/
+
+
+    @media only screen and (min-width:601) and (max-width: 720px) {
+        .pag6{
+            height: 620px;
+        }
+     }
+
+   .pag66{
+        width: 85%;
+        gap: 0%;
+        grid-template-columns: 48.5% 3% 48.5%;
+   }
+
+   .cool2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 38px;
+        max-width: 100%;
+        grid-column: 3/4;
+   }
+
+   .slideshow{
+        grid-row: 1/2;
+   }
+
+   .controls {
+        margin-top: 20px;
+        -webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -ms-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        transform: rotate(0deg);
+        margin-left:40%;
+    }
+
+    /*pag 7*/
+
+    .folio{
+        width: 30%;
+    }
+
+    .carousel-item  .image-text {
+        font-size: .73rem;
+        letter-spacing: .12rem;
+        padding: 0px 12px ;
+        line-height: 1.2rem;
+    }
+
+    /*footer*/
+
+    .corpo{
+        width: 85%;
+        row-gap: 6%;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2, auto);
+    }
+
+    .fuullt {
+        justify-self: end;
+    }
+
+    .fuullt3{
+        justify-self: start;
+    }
+
+    .footer1{
+        height: 600px;
+        grid-template-rows: 85% 15%;
+    }
+
+    .fooltite{
+        font-size: .8rem;
+    }
+
+    .fale1, .linksut1{
+        font-size: .9rem;
+    }
+
+    .fuullt, .fuullt2, .fuullt3{
+        gap: 0;
+    }
+
+    .corpo{
+        width: 85%;
+        height: 90%;
+    }
+
+    li svg{
+        width: 15px;
+        height: 15px;
+        position: relative;
+        top: 5px;
+    }
+
+    .footcool{
+        width: 85%;
+    }
+
+    .logofin{
+        font-size: 1rem;
+    }
+    
+    .logoredes2{
+        justify-self: start;
+        width: 100%;
+        gap: 4px;
+    }
+
+    .logoredes a{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .logoredes svg{
+        width: 65%;
+        height: 65%;
+    }
+
+    .copy{
+        width: 95%;
+        text-align: center;       
+        font-size: .8rem;
+    }
+
+    .footcool{
+        grid-template-columns: auto 1fr auto;
+    }
+
+    .zap{
+        top: 92%;
+        left: 89%;
+        width: 64px;
+        height: 64px;
+    }
+    
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1024px) {
+
+    
+    /*pag 4*/
+    
+    @media only screen and (min-width: 870px) and (max-width: 905px) {
+        .pagtest{
+            height: 810px;
+        }
+    }
+    
+    @media only screen and (min-width: 906px) and (max-width: 950px) {
+        .pagtest{
+            height: 830px;
+        }
+    }
+    
+    @media only screen and (min-width: 951px) and (max-width: 1024px) {
+        .pagtest{
+            height: 850px;
+        }
+    }
+    
+    /*pag 1*/
+
+    .pag1{
+        background: url(imagen/heder1024.png) no-repeat;
+        background-size: cover;
+    }
+    
+    .titlehome{
+        width: 35%;
+        font-size: 1.8rem;
+        letter-spacing: 0.18rem;
+            line-height: 2.2rem;
+    }
+        
+    .toptite {
+        font-size: .9rem;
+        letter-spacing: .09rem;
+    }
+       
+    .myprojet {
+        height: 38px;
+        width: 130px;
+    }
+    
+    .btn-txt3 {
+        font-size: .9rem;
+        letter-spacing: .09rem;
+    }
+    
+    .home1 {
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: .1rem;
+    }
+    
+    .contac1 {
+        font-size: .9rem;
+    }
+    
+    /*pag 2*/
+    
+    .quem{
+        font-size: 1.1rem;
+        letter-spacing: .11rem;
+    }
+    
+    .linha1{
+        width: 15%;
+        border-top: 2px solid rgb(26, 26, 26,.8);
+        position: relative;
+        top: -10px;
+        left:135px;
+    }
+    
+    .text1{
+        font-size: .9rem;
+        letter-spacing: .12rem;
+        line-height: 1.4rem;
+    }
+    
+    .somos{
+        font-size: .91rem;
+    }
+    
+    .foco{
+        font-size: 1.1rem;
+        letter-spacing: .11rem;
+    }
+    
+    .text2 {
+        font-size: .9rem;
+        letter-spacing: .12rem;
+        line-height: 1.4rem;
+    }
+    
+    .objtiv {
+        font-size: .91rem;
+    }
+    
+    /*pa 3*/
+
+
+    .contnuber{
+        width: 96%;
+        justify-self: end;
+    }
+    
+    .numeros{
+        font-size: 1.1rem;
+        letter-spacing: .15rem;
+        line-height: 1.5rem;
+    }
+    
+    .textnuber{
+        font-size: .9rem;
+        letter-spacing: .12rem;
+        line-height: 1.2rem;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .contact2{
+        height: 36px;
+        width: 126px;
+        margin-top: 25px;
+    }
+    
+    .btn-txt1 {
+        font-size: .8rem;
+        letter-spacing: .1rem;
+    }
+    
+    .btn-txt1 svg{
+        width: 19px;
+        height: 19px;
+    }
+    
+    .numbers{
+        row-gap: 43px;
+        column-gap: 5px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+    
+    .tag{
+        font-size: 2rem;
+        letter-spacing: .1rem;
+    }
+    
+    .tag2{
+        font-size: .9rem;
+        letter-spacing: .09rem;
+        line-height: 1.2rem;
+    }
+    
+    /*pag 4*/
+    
+    .partir1, .partir2, .preco{
+        letter-spacing: .09rem;
+    }
+    
+    :is(.reto2, .reto3, .reto4) span{
+        top: 24px;
+        left: 24px;
+        font-size: .8rem;
+        letter-spacing: .13rem;
+    }
+    .pagtest{
+        height: 774px;
+    }
+    
+    .pag80{
+        grid-template-rows: 1fr;
+        z-index: 1;
+    }
+    
+    .test44{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, max-content);
+    }
+
+    
+    .reto1,.reto2,.reto3, .reto4{
+        z-index: 2;
+    }
+
+    .reto1{
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    
+    .reto11{
+        width: 100%;
+
+    }
+    
+    .levamo{
+        width: 80%;
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+        letter-spacing: .15rem;
+    }
+    
+    .spai{
+        width: 80%;
+        grid-template-columns: 1fr;
+    }
+    
+    .proporci{
+        font-size: .8rem;
+        line-height: 1.1rem;
+        letter-spacing: .12rem;
+    }
+    
+    .subreto{
+        margin-top: 55.5px;
+        margin-left: 0%;
+    }
+    
+
+    .partir1{
+        font-size: .69rem;
+        margin-right: .16rem;
+        position: absolute;
+        top: -20%;
+        left: 0%;
+        font-weight: 300;
+        letter-spacing: .02rem;
+    }
+    
+    .partir2{
+        font-size: .75rem;
+        font-weight: 300;
+    }
+    
+    .preco{
+        font-size: 1.1rem;
+        margin-left: 45px;
+    }
+
+    .carromobid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr;
+        grid-column-start:2;
+        grid-column-end: 3;
+    }
+    
+    /*pag 5*/
+    
+    .h4projet{
+        font-size: 1.1rem;
+        letter-spacing: .14rem;
+    }
+    
+    .horizontal2{
+        width: 14%;
+        margin-left: 1%;
+        top: 19%;
+    }
+    
+    .butpri .clone > *,.butpri .textbut > * {
+      font-size: 1.15rem;
+      letter-spacing: .09rem;
+      margin-left: 4px;
+    }
+    
+    #butpri1{
+        width: 168px;
+    }
+    
+    #butpri2{
+        width: 210px;
+    }
+    
+    #butpri3{
+        width: 225px;
+    }
+    
+    #butpri4{
+        width: 145px;
+        margin-left: 10%;
+    }
+    
+    .butpri .svgbutpro {
+        width: 20px;
+        height: 20px;
+        right: 0;
+        top: 55%;
+    }
+    
+    .setback::after{
+        font-size: .76rem;
+    }
+    
+    .setback{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .svgset{
+        width: 30px;
+        height: 30px;
+    }
+        
+        
+        /* pag 6 */
+        
+    .pag66{
+        width: 80%;
+        gap: 3%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+   .cool2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 38px;
+        max-width: 100%;
+   }
+
+   .slideshow{
+        grid-row: 1/2;
+   }
+
+   .controls {
+        margin-top: 20px;
+        margin-left: 40%;
+        -webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -ms-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        transform: rotate(0deg);
+    }
+   
+    .h5vamos{
+        letter-spacing: .09rem;
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+    }
+    
+    .descrit{
+        font-size: .8rem;
+        letter-spacing: .14rem;
+        line-height: 1.4rem;
+    }
+    
+    .orcamento{
+        height: 36px;
+        width: 126px;
+        margin-top: 0px;
+    }
+
+    
+    .btn-txt2 {
+        font-size: .8rem;
+        letter-spacing: .1rem;
+    }
+    
+    .btn-txt2 svg{
+        width: 19px;
+        height: 19px;
+    }
+    
+    
+    /* pag 7  */
+    
+    .h6folio{
+        width: 90%;
+        position: relative;
+        left: 10%;
+    }
+    
+    .folio{
+        width: 25%;
+        font-size: 1.1rem;
+        letter-spacing: .12rem;
+        line-height: 1.8rem;
+    }
+    
+    .carousel-item  .image-text {
+        font-size: .7rem;
+        letter-spacing: .12rem;
+        padding: 0px 12px ;
+        line-height: 1.2rem;
+    }
+    
+    .carcont::after{
+        font-size: .75rem;
+    }
+
+    .carcont{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .svgset2{
+        width: 30px;
+        height: 30px;
+    }
+    
+
+    /* footer */
+    .footer1{
+        height: 400px;
+        max-height: 100%;
+        grid-template-rows: 85%  15%;
+        
+    }
+
+    .corpo{
+        width: 80%;
+        height: 70%;
+    }
+    
+    .fuullt, .fuullt2, .fuullt3{
+        row-gap: 0;
+    }
+    
+    .fooltite{
+        font-size: .8rem;
+    }
+
+    li svg{
+        width: 16px;
+        height: 16px;
+        position: relative;
+        top: 3px;
+    }
+
+    .logofin{
+        font-size: .95rem;
+        letter-spacing: .14rem;
+    }
+    
+    .logoredes2{
+        justify-self: start;
+        width: 100%;
+        gap: 3.5px;
+    }
+
+    .logoredes a{
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+
+    .logoredes svg{
+        width: 68%;
+        height: 68%;
+    }
+
+    .copy{
+        width: 95%;
+        text-align: center;       
+        font-size: .78rem;
+    }
+
+    .footcool{
+        grid-template-columns: auto 1fr auto;
+    }
+    
+    
+    .fale1, .linksut1{
+        font-size: .83rem;
+        line-height: 2rem;
+        letter-spacing: .12rem;
+    }
+    
+    .zap{
+        top: 88%;
+        left: 91.5%;
+        width: 68px;
+        height: 68px;
+    }    
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1440px) {
+
+
+    /*pag 2*/
+    .pag2{
+        height: 716px;
+    }
+
+
+    /*pag 3*/
+    .pagtest{
+        height: 627px;
+    }
+
+    @media screen and (min-width: 1025px) and (max-width: 1274px) {
+        .pag1{
+            background: url(imagen/heder1274.png) no-repeat;
+            background-size: cover;
+        }
+    }
+
+
+    @media only screen and (min-width: 1032px) and (max-width: 1117px) {
+        .pagtest{
+            height: 605px;
+        }
+    }
+
+    @media only screen and (min-width: 1118px) and (max-width: 1154px) {
+        .pagtest{
+            height: 588px;
+        }
+    }
+
+    @media only screen and (min-width: 1155px) and (max-width: 1298px) {
+        .pagtest{
+            height: 569px;
+        }
+
+        @media screen and (min-width: 1275px) and (max-width: 1298px) {
+            .pag1{
+                background: url(imagen/heder1298.png) no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1299px) and (max-width: 1440px) {
+
+        @media screen and (min-width: 1299px) and (max-width: 1359px) {
+            .pag1{
+                background: url(imagen/heder1359.png) no-repeat;
+                background-size: cover;
+            }
+        }
+        
+        @media screen and (min-width: 1360px) and (max-width: 1440px) {
+            .pag1{
+                background: url(imagen/heder1440.png) no-repeat;
+                background-size: cover;
+            }
+        }
+        
+        .pagtest{
+            height: 550px;
+        }
+    }
+
+    @media only screen and (max-width: 1440px) {
+        .pag6{
+            height: 620px;
+        }
+
+        .pag7{
+            height: 680px;
+        }
+     }
+
+     @media only screen and (max-width: 1330px) {
+        .pag6{
+            height: 580px;
+        }
+
+        .pag7{
+            height: 640px;
+        }
+
+        .carousel-item  .image-text {
+            font-size: .7rem;
+            letter-spacing: .11rem;
+            line-height: 1.35rem;
+        }
+     }
+
+     @media only screen and (max-width: 1230px) {
+        .pag6{
+            height: 550px;
+        }
+
+        .pag7{
+            height: 600px;
+        }
+     }
+
+     @media only screen and (max-width: 1150px) {
+        .pag6{
+            height: 520px;
+        }
+
+        .pag7{
+            height: 673px;
+        }
+
+        .carousel-item  .image-text {
+            font-size: .68rem;
+            letter-spacing: .11rem;
+            line-height: 1.32rem;
+        }
+
+        .zap{
+            width: 85px;
+            height: 85px;
+        }
+
+     }
+
+     @media only screen and (max-width: 1060px) {
+        .pag6{
+            height: 480px;
+        }
+
+        .pag7{
+            height: 640px;
+        }
+
+
+     }
+
+    
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1919px) {
+
+    @media only screen and (max-width: 1919px) {
+        
+        .pag1{
+            height: 924px;
+            background: url(imagen/heder1919.png) no-repeat;
+            background-size: cover;
+        }
+
+        .pag6{
+            height: 820px;
+        }
+
+        .pag7{
+            height: 855px;
+        }
+     }
+
+     @media only screen and (max-width: 1800px) {
+       
+        .pag1{
+            height: 924px;
+            background: url(imagen/heder1800.png) no-repeat;
+            background-size: cover;
+        }
+       
+        .pag6{
+            height: 780px;
+        }
+
+        .pag7{
+            height: 820px;
+        }
+     }
+
+     @media only screen and (max-width: 1690px) {
+        
+        .pag1{
+            height: 813px;
+            background: url(imagen/heder1690.png) no-repeat;
+            background-size: cover;
+        }
+        
+        .pag6{
+            height: 720px;
+        }
+
+        .pag7{
+            height: 780px;
+        }
+     }
+
+     @media screen and (min-width: 1600px) and (max-width: 1919px) {
+        .pag1{
+            height: 770px;
+            background: url(imagen/heder1600.png) no-repeat;
+            background-size: cover;
+        }
+    }
+
+     @media only screen and (max-width: 1550px) {
+       
+        .pag1{
+            height: 746px;
+            background: url(imagen/heder1550.png) no-repeat;
+            background-size: cover;
+        }
+       
+        .pag6{
+            height: 680px;
+        }
+
+        .pag7{
+            height: 740px;
+        }
+     }
+
+     @media only screen and (max-width: 1450px) {
+        
+        .pag1{
+            height: 698px;
+            background: url(imagen/heder1450.png) no-repeat;
+            background-size: cover;
+        }
+        
+        .pag6{
+            height: 650px;
+        }
+
+        .pag7{
+            height: 680px;
+        }
+     }
+
+         /*pag 1*/
+
+    .titlehome{
+        width: 26%;
+        font-size: 2.4rem;
+        letter-spacing: 0.24rem;
+        line-height: 3rem;
+    }
+    
+    .toptite {
+        font-size: 1rem;
+        letter-spacing: .1rem;
+    }
+       
+    .myprojet {
+        height: 48px;
+        width: 160px;
+    }
+    
+    .btn-txt3 {
+        font-size: 1rem;
+        letter-spacing: .1rem;
+    }
+    
+    .home1 {
+        font-size: 1rem;
+        font-weight: bold;
+        letter-spacing: .1rem;
+    }
+    
+    .contac1 {
+        font-size: .9rem;
+    }
+    
+    /*pag 2*/
+    
+    .quem{
+        font-size: 1.3rem;
+        letter-spacing: .13rem;
+    }
+    
+    .linha1{
+        width: 8%;
+        border-top: 2px solid rgb(26, 26, 26,.8);
+        position: relative;
+        top: -13px;
+        left:160px;
+    }
+    
+    .text1{
+        font-size: .98rem;
+        letter-spacing: .15rem;
+        line-height: 1.5rem;
+    }
+    
+    .somos{
+        font-size: 1rem;
+    }
+    
+    .foco{
+        font-size: 1.3rem;
+        letter-spacing: .13rem;
+    }
+    
+    .text2 {
+        font-size: .98rem;
+        letter-spacing: .15rem;
+        line-height: 1.5rem;
+    }
+    
+    .objtiv {
+        font-size: 1rem;
+    }
+    
+    /*pa 3*/
+    
+    .numeros{
+        font-size: 1.5rem;
+        letter-spacing: .15rem;
+    }
+    
+    .textnuber{
+        font-size: .96rem;
+        letter-spacing: .1rem;
+        line-height: 1.4rem;
+    }
+    
+    .contact2{
+        height: 42px;
+        width: 142px;
+        margin-top: 40px;
+    }
+    
+    .btn-txt1 {
+        font-size: .86rem;
+        letter-spacing: .1rem;
+    }
+    
+    .btn-txt1 svg{
+        width: 21px;
+        height: 21px;
+    }
+    
+    
+    .tag{
+        font-size: 2.4rem;
+        letter-spacing: .1rem;
+    }
+    
+    .tag2{
+        font-size: 1.05rem;
+        letter-spacing: .1rem;
+        line-height: 1.2rem;
+    }
+    
+    /*pag 4*/
+    
+    .levamo{
+        font-size: 1.4rem;
+        letter-spacing: .15rem;
+        line-height: 2rem;
+    }
+    
+    .proporci{
+        font-size: .9rem;
+        letter-spacing: .12rem;
+        line-height: 1.2rem;
+    }
+    
+    .partir1, .partir2, .preco{
+        letter-spacing: .09rem;
+    }
+    
+    .partir1{
+        font-size: .85rem;
+        letter-spacing: .06rem;
+    }
+    
+    .partir2{
+        font-size: .96rem;
+    }
+    
+    .preco{
+        font-size: 1rem;
+        margin-left: 61px;
+    }
+    
+    :is(.reto2, .reto3, .reto4) span{
+        top: 26px;
+        left: 26px;
+        font-size: 1rem;
+        letter-spacing: .15rem;
+    }
+    
+    /*pag 5*/
+    
+    .h4projet{
+        font-size: 1.4rem;
+        letter-spacing: .15rem;
+    }
+    
+    .horizontal2{
+        width: 10%;
+        margin-left: 1%;
+        top: 18%;
+    }
+    
+    .butpri .clone > *,.butpri .textbut > * {
+      font-size: 1.3rem;
+      letter-spacing: .09rem;
+      margin-left: 4px;
+    }
+    
+    #butpri1{
+        width: 182px;
+    }
+    
+    #butpri2{
+        width: 235px;
+    }
+    
+    #butpri3{
+        width: 250px;
+    }
+    
+    #butpri4{
+        width: 162px;
+        margin-left: 20%;
+    }
+    
+    .butpri .svgbutpro {
+        width: 21.5px;
+      right: 0;
+      top: 62%;
+    }
+    
+    .setback::after{
+        font-size: .82rem;
+    }
+    
+    .setback{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .svgset{
+        width: 35px;
+        height: 35px;
+    }
+        
+    
+    /* pag 6 */
+    
+    .h5vamos{
+        font-size: 1.4rem;
+        letter-spacing: .1rem;
+        line-height: 2rem;
+    }
+    
+    .descrit{
+        font-size: 1rem;
+        letter-spacing: .14rem;
+        line-height: 1.4rem;
+    }
+    
+    .orcamento{
+        height: 42px;
+        width: 142px;
+        margin-top: 25px;
+    }
+    
+    .btn-txt2 {
+        font-size: .85rem;
+        letter-spacing: .11rem;
+    }
+    
+    .btn-txt2 svg{
+        width: 21px;
+        height: 21px;
+    }
+    
+    
+    /* pag 7  */
+    
+    .h6folio{
+        width: 90%;
+        position: relative;
+        left: 10%;
+    }
+    
+    .folio{
+        width: 15%;
+        font-size: 1.4rem;
+        letter-spacing: .14rem;
+        line-height: 2rem;
+    }
+    
+    .carousel-item  .image-text {
+        font-size: .8rem;
+        letter-spacing: .12rem;
+        padding: 0px 25px ;
+        line-height: 1.5rem;
+    }
+    
+    .carcont::after{
+        font-size: .8rem;
+    }
+
+    .carcont{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .svgset2{
+        width: 35px;
+        height: 35px;
+    }
+    
+    /* footer */
+    
+    .footer1{
+        height: 400px;
+    }
+    
+    .fooltite{
+        font-size: 1rem;
+    }
+    
+    .fale1, .linksut1{
+        font-size: 1.1rem;
+        line-height: 2.4rem;
+        letter-spacing: .15rem;
+    }
+    
+    li svg{
+        width: 22px;
+        height: 22px;
+        top: 5.3px;
+    }
+    
+    .logofin{
+        font-size: 1.3rem;
+        letter-spacing: .14rem;
+    }
+    
+    .copy{
+        font-size: 1rem;
+    }
+    
+    .logoredes a{
+        width: 2.1rem;
+        height: 2.1rem;
+    }
+    
+    .logoredes svg{
+        width: 72%;
+        height: 72%;
+    }
+    
+    
+    .zap{
+        opacity: 95%;
+        top: 85%;
+        left: 93%;
+        width: 100px;
+        height: 125px;
+    }
+    
+
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2560px) {
+    .pag2{
+        height: 910px;
+    }
+
+    .pagcout{
+        grid-template-rows: 80px auto 80px;
+    }
+
+    .empilhamento{
+        height: 870px;
+        grid-template-rows: 80px auto 80px;
+    }
+
+    .empilhamento11{
+        height: 100%;
+        grid-row: 2/3;
+    }
+
+    /*pag 3*/
+
+    .pagtest{
+        height: 760px;
+    }
+
+    .pag5{
+        width: 100%;
+        height: 1787px;
+        grid-template-rows: 100px auto 100px;
+    }
+
+    .colun1, .colun2{
+        grid-template-rows: 507px 1fr;        
+    }
+
+    .projets1,.projets2, .projets3,.projets4{
+        height: 507px;
+    }
+
+     @media only screen and (max-width: 2560px) {
+        
+        .pag1{
+            height: 1232px;
+            background: url(imagen/heder2561.png) no-repeat;
+            background-size: cover;
+        }
+        
+        .pag6{
+            height: 1050px;
+        }
+
+        .pag7{
+            height: 1100px;
+        }
+     }
+
+     @media only screen and (max-width: 2350px) {
+       
+        .pag1{
+            height: 1130px;
+            background: url(imagen/heder2350.png) no-repeat;
+            background-size: cover;
+        }
+       
+        .pag6{
+            height: 1000px;
+        }
+
+        .pag7{
+            height: 1025px;
+        }
+     }
+
+     @media only screen and (max-width: 2250px) {
+       
+        .pag1{
+            height: 1082px;
+            background: url(imagen/heder2250.png) no-repeat;
+            background-size: cover;
+        }
+
+        .pag6{
+            height: 950px;
+        }
+
+        .pag7{
+            height: 990px;
+        }
+     }
+
+     @media only screen and (max-width: 2120px) {
+        .pag1{
+            height: 1019px;
+            background: url(imagen/heder2120.png) no-repeat;
+            background-size: cover;
+        }
+       
+        .pag6{
+            height: 900px;
+        }
+
+        .pag7{
+            height: 940px;
+        }
+     }
+
+     @media only screen and (max-width: 1980px) {
+       
+        .pag1{
+            height: 952px;
+            background: url(imagen/heder1980.png) no-repeat;
+            background-size: cover;
+        }
+       
+        .pag6{
+            height: 850px;
+        }
+
+        .pag7{
+            height: 880px;
+        }
+     }
+
+
+    @media only screen and (min-width: 1920px) and (max-width: 2199px) {
+        .pag1{
+            height: 923px;
+            background: url(imagen/heder1920.png) no-repeat;
+            background-size: cover;
+        }
+        
+        .pag2{
+            height: 800px;
+        }
+    }
+
+
+    /*pag 1*/
+
+    .titlehome{
+        width: 25%;
+        font-size: 2.7rem;
+        letter-spacing: 0.28rem;
+        line-height: 3.2rem;
+    }
+    
+    .toptite {
+        font-size: 1.2rem;
+        letter-spacing: .1rem;
+    }
+       
+    .myprojet {
+        height: 54px;
+        width: 190px;
+    }
+    
+    .btn-txt3 {
+        font-size: 1.2rem;
+        letter-spacing: .1rem;
+    }
+    
+    .home1 {
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: .1rem;
+    }
+    
+    .contac1 {
+        font-size: 1.1rem;
+    }
+    
+    /*pag 2*/
+    
+    .quem{
+        font-size: 1.5rem;
+        letter-spacing: .14rem;
+    }
+    
+    .linha1{
+        width: 8%;
+        border-top: 2px solid rgb(26, 26, 26,.8);
+        position: relative;
+        top: -13px;
+        left:180px;
+    }
+    
+    .text1{
+        font-size: 1.1rem;
+        letter-spacing: .16rem;
+        line-height: 1.6rem;
+    }
+    
+    .somos{
+        font-size: 1.11rem;
+    }
+    
+    .foco{
+        font-size: 1.5rem;
+        letter-spacing: .15rem;
+    }
+    
+    .text2 {
+        font-size: 1.1rem;
+        letter-spacing: .15rem;
+        line-height: 1.6rem;
+    }
+    
+    .objtiv {
+        font-size: 1.11rem;
+    }
+    
+    /*pa 3*/
+    
+    .numeros{
+        font-size: 1.7rem;
+        letter-spacing: .17rem;
+    }
+    
+    .textnuber{
+        font-size: 1.1rem;
+        letter-spacing: .1rem;
+        line-height: 1.6rem;
+    }
+    
+    .contact2{
+        height: 46px;
+        width: 146px;
+        margin-top: 40px;
+    }
+    
+    .btn-txt1 {
+        font-size: .9rem;
+        letter-spacing: .1rem;
+    }
+    
+    .btn-txt1 svg{
+        width: 22px;
+        height: 22px;
+    }
+    
+    
+    .tag{
+        font-size: 2.7rem;
+        letter-spacing: .1rem;
+    }
+    
+    .tag2{
+        font-size: 1.2rem;
+        letter-spacing: .1rem;
+        line-height: 1.5rem;
+    }
+    
+    /*pag 4*/
+    
+    .levamo{
+        font-size: 1.7rem;
+        letter-spacing: .17rem;
+        line-height: 2.2rem;
+    }
+    
+    .proporci{
+        font-size: 1.2rem;
+        letter-spacing: .15rem;
+        line-height: 1.7rem;
+    }
+    
+    .partir1, .partir2, .preco{
+        letter-spacing: .09rem;
+    }
+    
+    .partir1{
+        font-size: .9rem;
+        letter-spacing: .06rem;
+    }
+    
+    .partir2{
+        font-size: 1rem;
+    }
+    
+    .preco{
+        font-size: 1.2rem;
+        margin-left: 65px;
+    }
+    
+    :is(.reto2, .reto3, .reto4) span{
+        top: 28px;
+        left: 28px;
+        font-size: 1.2rem;
+        letter-spacing: .15rem;
+    }
+    
+    /*pag 5*/
+    
+    .h4projet{
+        font-size: 1.7rem;
+        letter-spacing: .15rem;
+    }
+    
+    .horizontal2{
+        width: 10%;
+        margin-left: 1%;
+        top: 18%;
+    }
+    
+    .butpri .clone > *,.butpri .textbut > * {
+      font-size: 1.45rem;
+      letter-spacing: .09rem;
+      margin-left: 4px;
+    }
+    
+    #butpri1{
+        width: 203px;
+    }
+    
+    #butpri2{
+        width: 265px;
+    }
+    
+    #butpri3{
+        width: 278px;
+    }
+    
+    #butpri4{
+        width: 180px;
+        margin-left: 20%;
+    }
+    
+    .butpri .svgbutpro {
+        width: 23px;
+      right: 0;
+      top: 62%;
+    }
+    
+    .setback::after{
+        font-size: .85rem;
+    }
+    
+    .setback{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .svgset{
+        width: 40px;
+        height: 40px;
+    }
+        
+    
+    /* pag 6 */
+    
+    .h5vamos{
+        font-size: 1.7rem;
+        letter-spacing: .1rem;
+        line-height: 2.2rem;
+    }
+    
+    .descrit{
+        font-size: 1.2rem;
+        letter-spacing: .14rem;
+        line-height: 1.7rem;
+    }
+    
+    .orcamento{
+        height: 46px;
+        width: 146px;
+        margin-top: 25px;
+    }
+    
+    .btn-txt2 {
+        font-size: .9rem;
+        letter-spacing: .11rem;
+    }
+    
+    .btn-txt2 svg{
+        width: 22px;
+        height: 22px;
+    }
+    
+    
+    /* pag 7  */
+    
+    .h6folio{
+        width: 90%;
+        position: relative;
+        left: 10%;
+    }
+    
+    .folio{
+        width: 10%;
+        font-size: 1.7rem;
+        letter-spacing: .15rem;
+        line-height: 2.1rem;
+    }
+    
+    .carousel-item  .image-text {
+        font-size: 1.1rem;
+        letter-spacing: .14rem;
+        padding: 0px 30px ;
+        line-height: 1.7rem;
+    }
+    
+    .carcont::after{
+        font-size: .9rem;
+    }
+
+    .carcont{
+        width: 70px;
+        height: 70px;
+    }
+    
+    .svgset2{
+        width: 40px;
+        height: 40px;
+    }
+   
+    
+    /* footer */
+    
+    .footer1{
+        height: 450px;
+    }
+    
+    .fooltite{
+        font-size: 1.2rem;
+    }
+    
+    .fale1, .linksut1{
+        font-size: 1.3rem;
+        line-height: 2.7rem;
+        letter-spacing: .16rem;
+    }
+    
+    li svg{
+        width: 23px;
+        height: 23px;
+        top: 5.5px;
+    }
+    
+    .logofin{
+        font-size: 1.5rem;
+        letter-spacing: .15rem;
+    }
+    
+    .copy{
+        font-size: 1.1rem;
+    }
+    
+    .logoredes a{
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+    
+    .logoredes svg{
+        width: 73%;
+        height: 73%;
+    }
+    
+    
+    .zap{
+        opacity: 95%;
+        top: 85%;
+        left: 93%;
+        width: 118px;
+        height: 148px;
+    }
+    
+  
+
+}
+
+@media only screen and (min-width: 2561px) {
+    
+
+    .pag2{
+        height: 1200px;
+    }
+
+    .pagcout{
+        grid-template-rows: 100px auto 100px;
+    }
+
+    .empilhamento{
+        height: 1167px;
+        grid-template-rows: 100px auto 100px;
+    }
+
+    .empilhamento11{
+        height: 100%;
+        grid-row: 2/3;
+    }
+
+    .pagtest{
+        height: 1009px;
+    }
+
+    .reto11{
+        grid-template-rows: 100px auto 1fr 100px;
+    }
+
+    .spai{
+        grid-template-rows: 50px auto 1fr ;
+        grid-row: 3 / 4;
+    }
+
+    .pag5{
+        width: 100%;
+        height: 2200px;
+        grid-template-rows: 100px auto 100px;
+    }
+
+    .colun1, .colun2{
+        grid-template-rows: 684px 1fr;        
+    }
+
+    .projets1,.projets2, .projets3,.projets4{
+        height: 684px;
+    }
+
+    /*pag 6*/
+
+    .pag6{
+        height: 1490px;
+         grid-template-rows: 100px auto 100px;
+    }
+
+    /*pag 7*/
+
+    .pag7{
+        grid-template-rows: 100px auto 100px;
+    }
+
+    .carousel-item{
+        width:calc(100% - 35px);
+    }
+    
+   
+    .controls {
+        margin-top: 15px;
+    }
+     
+     .dot {
+        width: 20px;
+        height: 20px;
+      }
+    
+}
+
+@media only screen and (min-width:2561px) and (max-width: 3399px) {
+   
+    
+
+    @media only screen and (max-width: 3375px) {
+        
+        .pag1{
+            height: 1623px;
+            background: url(imagen/heder3375.png) no-repeat;
+            background-size: cover;
+        }
+
+        .pag6{
+            height: 1400px;
+        }
+
+        .pag7{
+            height: 1320px;
+        }
+    }
+
+     @media only screen and (max-width: 3165px) {
+        
+        .pag1{
+            height: 1522px;
+            background: url(imagen/heder3165.png) no-repeat;
+            background-size: cover;
+        }
+
+        .pag6{
+            height: 1300px;
+        }
+
+        .pag7{
+            height: 1295px;
+        }
+    }
+
+    @media only screen and (max-width: 2975px) {
+        
+        .pag1{
+            height: 1431px;
+            background: url(imagen/heder2975.png) no-repeat;
+            background-size: cover;
+        }
+
+        .pag6{
+            height: 1250px;
+        }
+
+        .pag7{
+            height: 1280px;
+        }
+    }
+
+    @media only screen and (max-width: 2790px) {
+        
+        .pag1{
+            height: 1343px;
+            background: url(imagen/heder2790.png) no-repeat;
+            background-size: cover;
+        }
+        
+        .pag6{
+            height: 1200px;
+        }
+
+        .pag7{
+            height: 1200px;
+        }
+    }
+
+    @media only screen and (max-width: 2561px) {
+        
+        .pag1{
+            height: 1232px;
+            background: url(imagen/heder2561.png) no-repeat;
+            background-size: cover;
+        }
+        
+        .pag6{
+            height: 1150px;
+        }
+    }
+
+    @media only screen and (min-width: 3376px) {
+        
+        .pag7{
+            height: 1350px;
+        }
+    }
+
+    .pag1{
+        height: 1635px;
+        background: url(imagen/heder3400.png) no-repeat;
+        background-size: cover;
+    }
+
+
+
+    /*pag 1*/
+
+.titlehome{
+    width: 18%;
+    font-size: 2.8rem;
+    letter-spacing: 0.28rem;
+    line-height: 3.2rem;
+}
+
+.toptite {
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+}
+   
+.myprojet {
+    height: 55px;
+    width: 190px;
+}
+
+.btn-txt3 {
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+}
+
+.home1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+
+}
+
+.contac1 {
+    font-size: 1.2rem;
+}
+
+/*pag 2*/
+
+.quem{
+    font-size: 1.6rem;
+    letter-spacing: .14rem;
+}
+
+.linha1{
+    width: 8%;
+    border-top: 2px solid rgb(26, 26, 26,.8);
+    position: relative;
+    top: -13px;
+    left: 190px;
+}
+
+.text1{
+    font-size: 1.2rem;
+    letter-spacing: .15rem;
+    line-height: 1.6rem;
+}
+
+.somos{
+    font-size: 1.22rem;
+}
+
+.foco{
+    font-size: 1.6rem;
+    letter-spacing: .14rem;
+}
+
+.text2 {
+    font-size: 1.2rem;
+    letter-spacing: .15rem;
+    line-height: 1.6rem;
+}
+
+.objtiv {
+    font-size: 1.22rem;
+}
+
+/*pa 3*/
+
+.numeros{
+    font-size: 1.8rem;
+    letter-spacing: .17rem;
+}
+
+.textnuber{
+    font-size: 1.2rem;
+    letter-spacing: .08rem;
+    line-height: 1.6rem;
+}
+
+.contact2{
+    height: 48px;
+    width: 148px;
+    margin-top: 40px;
+}
+
+.btn-txt1 {
+    font-size: .9rem;
+    letter-spacing: .1rem;
+}
+
+.btn-txt1 svg{
+    width: 23px;
+    height: 23px;
+}
+
+
+.tag{
+    font-size: 2.8rem;
+    letter-spacing: .1rem;
+}
+
+.tag2{
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    line-height: 1.6rem;
+}
+
+/*pag 4*/
+
+.levamo{
+    font-size: 1.8rem;
+    letter-spacing: .17rem;
+    line-height: 2.2rem;
+}
+
+.proporci{
+    font-size: 1.3rem;
+    letter-spacing: .15rem;
+    line-height: 1.8rem;
+}
+
+.partir1, .partir2, .preco{
+    letter-spacing: .09rem;
+}
+
+.partir1{
+    font-size: .9rem;
+    letter-spacing: .05rem;
+}
+
+.partir2{
+    font-size: 1rem;
+}
+
+.preco{
+    font-size: 1.3rem;
+    margin-left: 65px;
+}
+
+:is(.reto2, .reto3, .reto4) span{
+    top: 30px;
+    left: 30px;
+    font-size: 1.3rem;
+    letter-spacing: .15rem;
+}
+
+/*pag 5*/
+
+.h4projet{
+    font-size: 1.8rem;
+    letter-spacing: .15rem;
+}
+
+.horizontal2{
+    width: 10%;
+    margin-left: 1%;
+    top: 15%;
+}
+
+.butpri .clone > *,.butpri .textbut > * {
+  font-size: 1.5rem;
+  letter-spacing: .09rem;
+  margin-left: 4px;
+}
+
+#butpri1{
+    width: 203px;
+}
+
+#butpri2{
+    width: 265px;
+}
+
+#butpri3{
+    width: 278px;
+}
+
+#butpri4{
+    width: 180px;
+    margin-left: 20%;
+}
+
+.butpri .svgbutpro {
+  width: 23px;
+  right: 0;
+  top: 65%;
+}
+
+.setback::after{
+    font-size: .9rem;
+}
+
+.setback{
+    width: 75px;
+    height: 75px;
+}
+
+
+/* pag 6 */
+
+.h5vamos{
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    line-height: 2.2rem;
+}
+
+.descrit{
+    font-size: 1.3rem;
+    letter-spacing: .14rem;
+    line-height: 1.7rem;
+}
+
+.orcamento{
+    height: 48px;
+    width: 148px;
+    margin-top: 25px;
+}
+
+.btn-txt2 {
+    font-size: 1rem;
+    letter-spacing: .11rem;
+}
+
+.btn-txt2 svg{
+    width: 23px;
+    height: 23px;
+}
+
+
+.h6folio{
+    width: 90%;
+    position: relative;
+    left: 10%;
+}
+
+/* pag 7  */
+
+.folio{
+    width: 10%;
+    font-size: 1.8rem;
+    letter-spacing: .15rem;
+    line-height: 2.2rem;
+}
+
+.carousel-item  .image-text {
+    font-size: 1.2rem;
+    letter-spacing: .14rem;
+    padding: 0px 30px ;
+    line-height: 1.7rem;
+}
+
+.carcont::after{
+    font-size: .9rem;
+}
+
+/* footer */
+
+.footer1{
+    height: 500px;
+}
+
+.fooltite{
+    font-size: 1.3rem;
+}
+
+.fale1, .linksut1{
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    letter-spacing: .16rem;
+}
+
+li svg{
+    width: 25px;
+    height: 25px;
+    top: 6px;
+}
+
+.logofin{
+    font-size: 1.6rem;
+    letter-spacing: .15rem;
+}
+
+.copy{
+    font-size: 1.2rem;
+}
+
+.logoredes a{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.logoredes svg{
+    width: 75%;
+    height: 75%;
+}
+
+
+.zap{
+    opacity: 95%;
+    top: 85%;
+    left: 93%;
+    width: 120px;
+    height: 150px;
+}
+
+.svgset{
+    width: 45px;
+    height: 45px;
+}
+
+.carcont{
+    width: 75px;
+    height: 75px;
+}
+
+.svgset2{
+    width: 35px;
+    height: 35px;
+}
+
+}
+
+@media only screen and (min-width: 3400px) and (max-width: 10000px) {
+    
+
+    @media only screen and (min-width: 3850px) {
+        
+        .pag1{
+            background: url(imagen/heder3850.png) no-repeat;
+            background-size: cover;
+        }
+    }
+
+    @media only screen and (min-width: 4830px) {
+        
+        .pag1{
+            background: url(imagen/heder4830.png) no-repeat;
+            background-size: cover;
+        }
+    }
+
+    body{
+        width: 100vw;
+    }
+
+    .pag1{
+        height: 1635px;
+        background: url(imagen/heder3400.png) no-repeat;
+        background-size: cover;
+    }
+
+    .pag1, .pag2, .empilhamento, .pagtest,.pag5,.pag6,.pag7, .footer1{
+        justify-self: center;
+        width: 100vw;
+    }
+
+    .pag11, .pagcout, .empilhamento11, .pag80, .pag55, .pag66, .pag77, .corpo, .footer2, .footcool{
+        width: 2720px;
+        justify-self: center;
+    }
+
+       /*pag 1*/
+
+.titlehome{
+    width: 20%;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    line-height: 3.3rem;
+}
+
+.toptite {
+    font-size: 1.5rem;
+    letter-spacing: .12rem;
+}
+   
+.myprojet {
+    height: 60px;
+    width: 200px;
+}
+
+.btn-txt3 {
+    font-size: 1.5rem;
+    letter-spacing: .12rem;
+}
+
+.home1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+
+}
+
+.contac1 {
+    font-size: 1.4rem;
+}
+
+/*pag 2*/
+
+.quem{
+    font-size: 1.7rem;
+    letter-spacing: .15rem;
+}
+
+.linha1{
+    width: 10%;
+    border-top: 2px solid rgb(26, 26, 26,.8);
+    position: relative;
+    top: -12px;
+    left: 16.5%;
+}
+
+.text1{
+    font-size: 1.3rem;
+    letter-spacing: .16rem;
+    line-height: 1.8rem;
+}
+
+.somos{
+    font-size: 1.32rem;
+}
+
+.foco{
+    font-size: 1.7rem;
+    letter-spacing: .15rem;
+}
+
+.text2 {
+    font-size: 1.3rem;
+    letter-spacing: .16rem;
+    line-height: 1.8rem;
+}
+
+.objtiv {
+    font-size: 1.32rem;
+}
+
+/*pag 3*/
+
+.numeros{
+    font-size: 2rem;
+    letter-spacing: .19rem;
+}
+
+.textnuber{
+    font-size: 1.3rem;
+    letter-spacing: .12rem;
+    line-height: 1.6rem;
+}
+
+.contact2{
+    height: 50px;
+    width: 150px;
+    margin-top: 40px;
+}
+
+.btn-txt1 {
+    font-size: 1rem;
+    letter-spacing: .11rem;
+}
+
+.btn-txt1 svg{
+    width: 25px;
+    height: 25px;
+}
+
+.tag{
+    font-size: 3rem;
+    letter-spacing: .12rem;
+}
+
+.tag2{
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: .08rem;
+    line-height: 1.5rem;
+}
+
+/*pag 4*/
+
+.levamo{
+    font-size: 2rem;
+    letter-spacing: .15rem;
+    line-height: 2.4rem;
+}
+
+.proporci{
+    font-size: 1.4rem;
+    letter-spacing: .18rem;
+    line-height: 1.8rem;
+}
+
+.partir1, .partir2, .preco{
+    letter-spacing: .1rem;
+}
+
+.partir1{
+    font-size: 1rem;
+    letter-spacing: .05rem;
+}
+
+.partir2{
+    font-size: 1.1rem;
+}
+
+.preco{
+    font-size: 1.4rem;
+    margin-left: 70px;
+}
+
+:is(.reto2, .reto3, .reto4) span{
+    top: 44px;
+    left: 44px;
+    font-size: 1.4rem;
+    letter-spacing: .18rem;
+}
+
+/*pag 5*/
+
+.h4projet{
+    font-size: 2rem;
+    font-weight: 550;
+    letter-spacing: .15rem;
+}
+
+.horizontal2{
+    width: 10%;
+    margin-left: 1%;
+    top: 15%;
+}
+
+.butpri .clone > *,.butpri .textbut > * {
+  font-size: 1.6rem;
+  letter-spacing: .1rem;
+  margin-left: 4px;
+}
+
+#butpri1{
+    width: 215px;
+}
+
+#butpri2{
+    width: 275px;
+}
+
+#butpri3{
+    width: 293px;
+}
+
+#butpri4{
+    width: 190px;
+    margin-left: 20%;
+}
+
+.butpri .svgbutpro {
+  width: 23px;
+  right: 0;
+  top: 68%;
+}
+
+.setback::after{
+    font-size: 1rem;
+}
+
+.setback{
+    width: 80px;
+    height: 80px;
+}
+
+
+/* pag 6 */
+
+.h5vamos{
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    line-height: 2.4rem;
+}
+
+.descrit{
+    font-size: 1.4rem;
+    letter-spacing: .15rem;
+    line-height: 1.8rem;
+}
+
+.orcamento{
+    height: 50px;
+    width: 150px;
+    margin-top: 25px;
+}
+
+.btn-txt2 {
+    font-size: 1rem;
+    letter-spacing: .11rem;
+}
+
+.btn-txt2 svg{
+    width: 25px;
+    height: 25px;
+}
+
+.h6folio{
+    width: 90%;
+    position: relative;
+    left: 10%;
+}
+
+.folio{
+    width: 10%;
+    font-size: 2rem;
+    letter-spacing: .15rem;
+    line-height: 2.4rem;
+}
+
+.carousel-item  .image-text {
+    font-size: 1.3rem;
+    letter-spacing: .15rem;
+    padding: 0px 30px ;
+    line-height: 1.8rem;
+}
+
+.carcont::after{
+    font-size: 1rem;
+}
+
+/* pag 7 */
+
+.pag7{
+    height: 1185px;
+}
+
+.contcarrossel{
+    width: 100%;
+    left: 0%;
+}
+
+.h6folio{
+    width: 90%;
+    position: relative;
+    left: 0%;
+}
+
+/* footer */
+
+.footer1{
+    height: 600px;
+}
+
+.fooltite{
+    font-size: 1.4rem;
+}
+
+.fale1, .linksut1{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    letter-spacing: .15rem;
+}
+
+li svg{
+    width: 30px;
+    height: 30px;
+    top: 6px;
+}
+
+.logofin{
+    font-size: 1.7rem;
+    letter-spacing: .16rem;
+}
+
+.copy{
+    font-size: 1.25rem;
+}
+
+.logoredes a{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.logoredes svg{
+    width: 80%;
+    height: 80%;
+}
+
+
+.zap{
+    opacity: 95%;
+    top: 85%;
+    left: 93%;
+    width: 120px;
+    height: 150px;
+}
+
+.svgset{
+    width: 45px;
+    height: 45px;
+}
+
+.carcont{
+    width: 80px;
+    height: 80px;
+}
+
+.svgset2{
+    width: 45px;
+    height: 45px;
+}
+}
